@@ -14,6 +14,24 @@ function AboutPage() {
           <p className="text-sm text-brand-navy">
             Mahasiswa S1 Sains Data (Universitas Terbuka) · Digital Marketing Support · Kreator StudyWithAI
           </p>
+          <div className="mt-2 flex flex-wrap justify-center gap-2 sm:justify-start">
+            <a
+              href="https://id.linkedin.com/in/aryoadiansyah"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-brand-navy px-3 py-1 text-xs font-medium text-brand-navy transition-colors duration-150 hover:bg-brand-navy hover:text-white"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://www.instagram.com/studywithai.id/"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-brand-navy px-3 py-1 text-xs font-medium text-brand-navy transition-colors duration-150 hover:bg-brand-navy hover:text-white"
+            >
+              Instagram · StudyWithAI
+            </a>
+          </div>
         </div>
       </div>
 

@@ -10,6 +10,7 @@ const NAV_ITEMS: { id: PageId; label: string }[] = [
   { id: "search", label: "Cari" },
   { id: "studycase", label: "Studi Kasus" },
   { id: "article", label: "Artikel" },
+  { id: "guide", label: "Panduan" },
   { id: "about", label: "Tentang" },
   { id: "settings", label: "Pengaturan" },
 ];

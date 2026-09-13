@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import AboutPage from "./components/AboutPage";
 import ArticlePage from "./components/ArticlePage";
+import GuidePage from "./components/GuidePage";
 import Header from "./components/Header";
 import PricingToggle from "./components/PricingToggle";
 import ProjectSidebar from "./components/ProjectSidebar";
@@ -14,7 +15,7 @@ import { ToolsDbProvider, useToolsDb } from "./context/ToolsDbContext";
 import { applyPricingFilterToSearchResult, runSearch } from "./lib/searchEngine";
 import type { PricingMode } from "./types/models";
 
-export type PageId = "search" | "studycase" | "article" | "about" | "settings";
+export type PageId = "search" | "studycase" | "article" | "guide" | "about" | "settings";
 
 function SearchPage() {
   const { tools } = useToolsDb();
@@ -63,6 +64,7 @@ function App() {
             {page === "search" && <SearchPage />}
             {page === "studycase" && <StudyCasePage />}
             {page === "article" && <ArticlePage />}
+            {page === "guide" && <GuidePage />}
             {page === "about" && <AboutPage />}
             {page === "settings" && <SettingsPage />}
           </div>
