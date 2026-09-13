@@ -1,0 +1,1664 @@
+{
+  "dataVersion": "2026-09-13",
+  "lastUpdated": "2026-09-13T00:00:00Z",
+  "tools": [
+    {
+      "id": "gemini-app",
+      "name": "Gemini app",
+      "vendor": "Google",
+      "category": "asisten-chat",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit model & fitur; Google AI Pro/Ultra untuk kuota & fitur lebih luas",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Pakai buat brainstorming awal & tanya jawab bebas dulu sebelum upload dokumen ke NotebookLM, supaya kebutuhan riset mendalam tidak numpuk di satu tool.",
+        "Manfaatkan Gemini Extensions (Gmail, Drive, Maps) buat pertanyaan yang butuh konteks dari akun Google kamu sendiri, daripada copy-paste manual."
+      ],
+      "officialUrl": "https://gemini.google.com/",
+      "keywords": [
+        "mempelajari",
+        "belajar",
+        "brainstorming",
+        "cari sumber",
+        "awal belajar",
+        "kenalan topik",
+        "mulai belajar",
+        "tanya jawab",
+        "ide awal"
+      ],
+      "stageTags": [
+        "riset awal",
+        "brainstorming"
+      ],
+      "description": "Asisten chat serba guna dari Google yang terhubung langsung dengan ekosistem Google (Search, Gmail, Docs, Maps) lewat fitur Extensions, sehingga bisa menjawab pertanyaan dengan konteks dari akun Google penggunanya sendiri. Di dunia pendidikan, tool ini paling pas dipakai di tahap paling awal proses belajar atau mengerjakan tugas — saat topiknya masih perlu dieksplorasi dan belum ada sumber bacaan spesifik yang dipegang. Setelah arah topik mulai jelas, proses biasanya berlanjut ke tool riset yang lebih fokus seperti NotebookLM untuk pendalaman berbasis sumber.",
+      "studyCase": "Siswa SMA yang baru mendapat tugas menulis esai bisa memakai Gemini app untuk brainstorming beberapa sudut pandang dan kerangka argumen sebelum mulai menulis draf. Mahasiswa yang sedang menyiapkan proposal penelitian bisa memakai cara serupa: melempar beberapa kemungkinan rumusan masalah ke Gemini app untuk melihat mana yang paling masuk akal, sebelum topik tersebut didalami lebih jauh lewat riset literatur di NotebookLM.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com dan masuk dengan akun Google.",
+        "Ketik pertanyaan atau instruksi di kolom chat, atau pilih salah satu saran prompt yang muncul.",
+        "Aktifkan Extensions (ikon di pojok) kalau butuh konteks dari Gmail, Drive, atau Maps.",
+        "Lanjutkan percakapan dengan pertanyaan susulan untuk memperdalam jawaban."
+      ]
+    },
+    {
+      "id": "stitch",
+      "name": "Stitch",
+      "vendor": "Google",
+      "category": "desain-ui",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://stitch.withgoogle.com/",
+      "keywords": [
+        "desain",
+        "ui",
+        "tampilan",
+        "mockup",
+        "wireframe",
+        "dashboard visual",
+        "prototipe visual",
+        "landing page desain"
+      ],
+      "stageTags": [
+        "desain",
+        "mockup"
+      ],
+      "description": "Tool desain UI berbasis AI dari Google yang mengubah deskripsi teks atau sketsa kasar menjadi mockup antarmuka aplikasi/web lengkap dengan tata letak dan komponen visual, tanpa perlu kemampuan desain grafis. Fokusnya murni di tahap eksplorasi visual awal, sehingga hasilnya masih berupa kerangka tampilan, bukan aplikasi yang benar-benar bisa dipakai. Dalam konteks pendidikan, tool ini membantu siapa pun yang perlu memvisualisasikan ide antarmuka dengan cepat tanpa harus menguasai software desain profesional terlebih dahulu.",
+      "studyCase": "Kelompok siswa SMA yang mengikuti lomba karya inovasi teknologi bisa memakai Stitch untuk cepat menggambarkan beberapa alternatif tampilan aplikasi yang mereka usulkan, sebagai bahan presentasi ke dewan juri. Mahasiswa jurusan Sistem Informasi atau Desain yang sedang mengerjakan tugas akhir berupa rancangan aplikasi bisa memakai Stitch untuk menyusun mockup antarmuka secara cepat sebelum masuk ke tahap pengembangan sungguhan.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka stitch.withgoogle.com dan masuk dengan akun Google.",
+        "Tulis deskripsi tampilan yang diinginkan, atau upload sketsa/wireframe kasar.",
+        "Pilih salah satu hasil mockup yang muncul, lalu minta variasi atau revisi lewat prompt lanjutan.",
+        "Simpan mockup terpilih sebagai referensi visual untuk tahap desain berikutnya."
+      ]
+    },
+    {
+      "id": "ai-studio-build",
+      "name": "AI Studio (Build)",
+      "vendor": "Google",
+      "category": "no-code-otomatisasi",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis untuk build & deploy dasar",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://aistudio.google.com/",
+      "keywords": [
+        "dashboard",
+        "order tracker",
+        "aplikasi",
+        "aplikasi interaktif",
+        "interaktif",
+        "app",
+        "web app",
+        "tool internal",
+        "fungsional",
+        "deploy",
+        "tracker",
+        "pencatat",
+        "website"
+      ],
+      "stageTags": [
+        "build aplikasi",
+        "deploy"
+      ],
+      "description": "Platform no-code/low-code dari Google yang mengubah deskripsi kebutuhan dalam bahasa sehari-hari menjadi aplikasi web interaktif yang benar-benar berfungsi dan bisa langsung di-deploy secara online, tanpa perlu menulis kode dari nol. Berbeda dari Stitch yang cuma menghasilkan gambaran visual, di sini hasilnya adalah aplikasi fungsional lengkap dengan logika sederhana di baliknya. Untuk kebutuhan edukasi, tool ini memungkinkan siswa maupun mahasiswa yang belum menguasai pemrograman tetap bisa mewujudkan ide aplikasi mereka menjadi produk yang bisa dicoba orang lain.",
+      "studyCase": "Siswa SMA yang ikut kompetisi inovasi digital bisa memakai AI Studio Build untuk langsung membuat prototipe aplikasi pencatat kegiatan ekstrakurikuler yang benar-benar bisa dicoba oleh juri, bukan sekadar rancangan di atas kertas. Mahasiswa yang mengerjakan proyek kuliah kelompok bisa memakai tool yang sama untuk membangun aplikasi pendataan sederhana (misalnya sistem presensi organisasi kampus) tanpa harus menunggu anggota tim yang jago coding.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka aistudio.google.com, pilih menu Build.",
+        "Deskripsikan aplikasi yang ingin dibuat dalam bahasa sehari-hari (fitur, data yang perlu dicatat, dst).",
+        "Uji coba aplikasi yang dihasilkan langsung di preview, lalu minta perbaikan lewat prompt susulan.",
+        "Klik Deploy untuk mempublikasikan aplikasi dan dapatkan link yang bisa dibagikan."
+      ]
+    },
+    {
+      "id": "opal",
+      "name": "Opal",
+      "vendor": "Google",
+      "category": "no-code-otomatisasi",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis (Google Labs experiment)",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://labs.google/",
+      "keywords": [
+        "otomatisasi",
+        "otomatis",
+        "alur",
+        "workflow",
+        "balasan wa",
+        "customer service",
+        "klasifikasi pesan",
+        "cs",
+        "chatbot",
+        "balas pesan"
+      ],
+      "stageTags": [
+        "otomatisasi",
+        "prototipe alur"
+      ],
+      "description": "Eksperimen Google Labs yang memungkinkan penggunanya merangkai beberapa langkah AI (prompt, pemrosesan data, logika sederhana) menjadi satu mini-aplikasi otomatis, cukup lewat instruksi bahasa natural tanpa setup infrastruktur otomatisasi yang rumit. Tool ini pas dipakai untuk menguji apakah sebuah ide alur kerja masuk akal sebelum diinvestasikan waktu lebih banyak ke sistem otomatisasi permanen. Dalam konteks pendidikan, Opal cocok untuk latihan berpikir sistematis tentang alur kerja tanpa harus punya latar belakang teknis pemrograman.",
+      "studyCase": "Siswa SMA yang mengikuti ekstrakurikuler robotika atau klub coding bisa memakai Opal untuk mencoba merangkai alur otomatis sederhana (misalnya klasifikasi jenis pertanyaan yang masuk ke akun media sosial sekolah) sebagai proyek belajar logika otomatisasi. Mahasiswa yang sedang menjalankan riset atau bisnis kecil di sela kuliah bisa memakai Opal untuk menguji dulu alur otomatisasi customer service sebelum memutuskan membangun sistem yang lebih permanen di n8n.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka opal.withgoogle.com atau akses lewat labs.google.",
+        "Jelaskan alur yang ingin dibuat langkah demi langkah dalam bahasa natural.",
+        "Uji alur tersebut dengan beberapa contoh input untuk melihat apakah hasilnya sesuai.",
+        "Sempurnakan alur dengan menambah atau mengubah instruksi sampai hasilnya konsisten."
+      ]
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "vendor": "Google",
+      "category": "riset-dokumen",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit notebook/sumber; NotebookLM Plus via Google AI Pro/Ultra",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Upload semua sumber sekaligus di satu notebook supaya nggak perlu re-upload berkali-kali.",
+        "Manfaatkan satu notebook buat beberapa keperluan sekaligus (ringkasan, kuis, slide) daripada bikin notebook baru tiap kali.",
+        "Generate Audio Overview di jam-jam sepi kalau kuota harian pemrosesan audio terasa ketat, supaya nggak antre di jam ramai."
+      ],
+      "officialUrl": "https://notebooklm.google/",
+      "keywords": [
+        "riset",
+        "kuliah",
+        "modul",
+        "kuis",
+        "flashcard",
+        "latihan soal",
+        "menguji pemahaman",
+        "materi",
+        "mempelajari",
+        "belajar materi",
+        "memperdalam",
+        "pendalaman",
+        "mendalami",
+        "belajar",
+        "ringkasan",
+        "dokumen",
+        "study guide",
+        "podcast",
+        "rangkuman",
+        "presentasi",
+        "persentasi",
+        "slide",
+        "slide deck",
+        "ppt",
+        "powerpoint",
+        "pitch deck",
+        "paparan"
+      ],
+      "stageTags": [
+        "riset",
+        "belajar",
+        "memperdalam",
+        "presentasi"
+      ],
+      "description": "Notebook riset berbasis AI yang hanya menjawab pertanyaan dari sumber dokumen yang diunggah sendiri oleh penggunanya (PDF, tautan web, video, atau audio), sehingga jawabannya selalu berpijak pada materi asli dan bukan karangan bebas model. Fitur Audio Overview dapat mengubah dokumen menjadi podcast diskusi dua suara yang enak didengar sambil mengulang materi, sementara fitur Study Guide otomatis menyusun rangkuman dan kuis latihan dari sumber yang sama. Karena sifatnya yang berbasis sumber terpercaya, NotebookLM sangat cocok dipakai untuk keperluan akademik yang menuntut akurasi, mulai dari belajar untuk ujian hingga menyusun tinjauan pustaka.",
+      "studyCase": "Siswa SMA kelas 12 yang sedang mempersiapkan ujian bisa mengunggah seluruh catatan dan modul pelajaran ke satu notebook, lalu meminta NotebookLM membuatkan rangkuman per bab dan kuis latihan untuk menguji pemahaman sebelum ujian berlangsung. Mahasiswa yang sedang menyusun skripsi bisa mengunggah puluhan jurnal referensi ke NotebookLM, lalu memakai fitur Study Guide untuk memperdalam pemahaman tiap sumber dan fitur Audio Overview untuk mengulang materi sambil melakukan aktivitas lain, sebelum akhirnya menyusun slide presentasi sidang dari sumber-sumber yang sama.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka notebooklm.google.com dan buat notebook baru.",
+        "Upload sumber (PDF, link, video, atau audio) yang jadi bahan referensi.",
+        "Ajukan pertanyaan di kolom chat — jawabannya akan selalu berbasis sumber yang diupload.",
+        "Gunakan panel Studio untuk generate Audio Overview, Study Guide, atau slide ringkasan dari sumber yang sama."
+      ]
+    },
+    {
+      "id": "pomelli",
+      "name": "Pomelli",
+      "vendor": "Google",
+      "category": "marketing-campaign",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis (Google Labs experiment)",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://labs.google/",
+      "keywords": [
+        "brand",
+        "campaign",
+        "marketing",
+        "promosi sosmed",
+        "iklan",
+        "strategi konten",
+        "business dna",
+        "analisa brand"
+      ],
+      "stageTags": [
+        "strategi brand",
+        "campaign"
+      ],
+      "description": "Eksperimen Google Labs yang menganalisis sebuah website atau brand secara otomatis untuk membangun profil identitas visual dan gaya komunikasinya (disebut 'Business DNA'), lalu memakai profil tersebut untuk menghasilkan ide campaign marketing yang konsisten dengan identitas itu. Meski awalnya ditujukan untuk pelaku bisnis, tool ini juga relevan untuk kegiatan pendidikan yang melibatkan branding, seperti organisasi kemahasiswaan atau proyek kewirausahaan sekolah yang perlu terlihat profesional tanpa tim desain khusus.",
+      "studyCase": "Kelompok siswa SMA yang menjalankan proyek kewirausahaan sekolah (misalnya jualan produk hasil praktik) bisa memasukkan halaman media sosial usaha mereka ke Pomelli untuk mendapat beberapa ide materi promosi yang gaya visualnya tetap konsisten. Mahasiswa yang tergabung dalam himpunan mahasiswa atau menjalankan bisnis sampingan kecil-kecilan bisa memakai Pomelli untuk cepat menghasilkan ide campaign promosi acara atau produk tanpa perlu briefing desain dari nol.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka labs.google dan cari eksperimen Pomelli.",
+        "Masukkan URL website atau media sosial brand/usaha yang ingin dianalisis.",
+        "Tinjau 'Business DNA' yang dihasilkan (gaya visual, tone, target audiens).",
+        "Pilih salah satu ide campaign yang direkomendasikan, atau minta variasi lain."
+      ]
+    },
+    {
+      "id": "gemini-canvas",
+      "name": "Gemini Canvas",
+      "vendor": "Google",
+      "category": "penulisan",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis, termasuk dalam Gemini app",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://gemini.google.com/",
+      "keywords": [
+        "naskah",
+        "draft",
+        "tulisan",
+        "revisi",
+        "dokumen panjang",
+        "artikel",
+        "kuis interaktif",
+        "nulis"
+      ],
+      "stageTags": [
+        "menulis",
+        "revisi"
+      ],
+      "description": "Ruang kerja menulis interaktif di dalam Gemini yang memungkinkan revisi bolak-balik pada draf tulisan panjang tanpa perlu menghasilkan ulang keseluruhan teks setiap kali ada perubahan kecil di satu bagian saja. Selain teks, kanvas yang sama juga bisa dipakai untuk mengubah draf materi menjadi kuis interaktif. Untuk kebutuhan akademik, tool ini sangat membantu proses menulis panjang seperti esai, makalah, atau laporan yang biasanya melewati banyak tahap revisi sebelum versi finalnya siap dikumpulkan.",
+      "studyCase": "Siswa SMA yang sedang menulis esai untuk lomba karya tulis ilmiah bisa memakai Gemini Canvas untuk merevisi paragraf demi paragraf sesuai masukan guru pembimbing, tanpa harus menulis ulang seluruh esai dari awal. Mahasiswa yang tengah menyusun bab pembahasan skripsi bisa memakai kanvas yang sama untuk merapikan argumen secara bertahap, bagian per bagian, sambil tetap menjaga alur tulisan tetap utuh.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com, lalu klik ikon Canvas saat memulai chat baru.",
+        "Tulis instruksi awal (topik, poin-poin penting, atau draf kasar) untuk dikembangkan jadi tulisan.",
+        "Sorot bagian tertentu di kanvas untuk minta revisi spesifik tanpa mengubah bagian lain.",
+        "Ulangi proses revisi sampai draf dianggap final."
+      ]
+    },
+    {
+      "id": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "vendor": "Google",
+      "category": "generate-gambar",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan kuota ~2-20 gambar/hari, versi penuh via Google AI Pro/Ultra",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Simpan pemakaian Pro buat gambar penting saja (poster utama, thumbnail andalan) — pakai Nano Banana biasa/2 untuk kebutuhan harian.",
+        "Kuota biasanya reset harian — kerjakan batch generate di awal hari kalau butuh banyak sekaligus."
+      ],
+      "officialUrl": "https://gemini.google.com/",
+      "keywords": [
+        "poster",
+        "infografis",
+        "gambar teks",
+        "thumbnail",
+        "teks jelas",
+        "gambar presisi",
+        "harga diskon",
+        "banner"
+      ],
+      "stageTags": [
+        "gambar",
+        "presentasi-visual"
+      ],
+      "description": "Model generate gambar dari Google yang unggul dalam merender teks di dalam gambar secara akurat dan mudah dibaca — sesuatu yang sering jadi kelemahan generator gambar AI pada umumnya. Kemampuan ini membuatnya sangat pas untuk membuat aset visual yang mengandalkan teks presisi, seperti poster acara, infografis edukasi, atau banner pengumuman, yang sering dibutuhkan dalam kegiatan sekolah maupun kampus.",
+      "studyCase": "Panitia acara sekolah (misalnya panitia perpisahan atau class meeting) bisa memakai Nano Banana Pro untuk membuat poster acara dengan teks tanggal dan tempat yang terbaca jelas, tanpa perlu jasa desainer. Mahasiswa yang menjadi panitia seminar atau lomba tingkat kampus bisa memakai tool yang sama untuk membuat infografis rundown acara yang informasinya presisi dan tidak buram saat dibagikan di media sosial.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com dan pilih model gambar Nano Banana Pro.",
+        "Tulis prompt yang menyertakan teks persis yang ingin muncul di gambar (mis. harga, judul).",
+        "Perhatikan hasil render teksnya — minta ulang kalau ada yang kurang presisi.",
+        "Unduh gambar final dalam resolusi yang dibutuhkan."
+      ]
+    },
+    {
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "vendor": "Google",
+      "category": "generate-gambar",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis dengan kuota harian lebih longgar dibanding versi Pro",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://gemini.google.com/",
+      "keywords": [
+        "edit foto",
+        "gambar cepat",
+        "variasi gambar",
+        "stories",
+        "feed harian",
+        "foto produk"
+      ],
+      "stageTags": [
+        "gambar harian"
+      ],
+      "description": "Versi generate dan edit gambar dari Google yang lebih ringan dan kuotanya lebih longgar dibanding Nano Banana Pro, cocok untuk kebutuhan visual harian yang sering berganti-ganti dan tidak menuntut presisi teks setinggi versi Pro. Karena kuotanya lebih leluasa, tool ini pas dipakai untuk keperluan visual yang sifatnya rutin dan berulang, termasuk berbagai kebutuhan konten dokumentasi kegiatan pendidikan sehari-hari.",
+      "studyCase": "Pengurus OSIS yang rutin memposting dokumentasi kegiatan sekolah di media sosial bisa memakai Nano Banana untuk membuat variasi gambar pendukung setiap hari tanpa boros kuota. Mahasiswa pengelola akun media sosial organisasi kampus bisa memakai tool yang sama untuk kebutuhan visual harian, sementara kuota Nano Banana Pro disimpan khusus untuk materi promosi acara besar yang butuh teks presisi.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com dan pilih model gambar Nano Banana.",
+        "Tulis deskripsi gambar yang diinginkan, atau upload foto yang ingin diedit/divariasikan.",
+        "Minta beberapa variasi sekaligus untuk dipilih yang paling cocok.",
+        "Simpan hasil yang dipilih untuk dipakai di konten harian."
+      ]
+    },
+    {
+      "id": "veo",
+      "name": "Veo",
+      "vendor": "Google",
+      "category": "generate-video",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan kuota video sangat terbatas; kuota lebih besar via Google AI Pro/Ultra",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Rencanakan dulu skrip/storyboard sebelum generate — kuota video harian biasanya terbatas dan boros kalau coba-coba langsung di dalam alat.",
+        "Coba variasi prompt gerakan kamera (zoom, pan) di draft resolusi rendah dulu sebelum generate versi final beresolusi tinggi."
+      ],
+      "officialUrl": "https://deepmind.google/technologies/veo/",
+      "keywords": [
+        "video pendek",
+        "reels",
+        "tiktok",
+        "video promo",
+        "video singkat",
+        "video"
+      ],
+      "stageTags": [
+        "video pendek"
+      ],
+      "description": "Model generate video pendek dari Google yang mengubah teks atau gambar menjadi klip video dengan gerakan kamera dan fisika yang cukup natural, sehingga bisa langsung dipakai untuk konten media sosial tanpa proses syuting sungguhan. Kemampuan ini membuka peluang bagi pelajar dan mahasiswa untuk membuat konten video tugas atau promosi kegiatan tanpa perlu peralatan syuting maupun keterampilan videografi.",
+      "studyCase": "Siswa SMA yang mendapat tugas membuat video pendek untuk mata pelajaran tertentu (misalnya video kampanye lingkungan) bisa memakai Veo untuk menghasilkan cuplikan visual pendukung tanpa perlu syuting di luar sekolah. Mahasiswa yang menjadi bagian tim media organisasi kampus bisa memakai Veo untuk membuat teaser video acara dari beberapa foto dokumentasi yang sudah ada, tanpa perlu sesi pengambilan gambar tambahan.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com atau labs.google, lalu pilih Veo.",
+        "Tulis deskripsi adegan (subjek, gerakan, gaya visual, suasana) atau upload gambar awal.",
+        "Generate video dan tinjau hasilnya — perbaiki prompt kalau gerakan/komposisi belum sesuai.",
+        "Unduh klip video untuk diedit lebih lanjut atau langsung diunggah."
+      ]
+    },
+    {
+      "id": "flow",
+      "name": "Flow",
+      "vendor": "Google",
+      "category": "generate-video",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit sesi edit; kuota lebih besar via Google AI Pro/Ultra",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Gabungkan klip Veo dalam satu sesi edit sekaligus daripada bolak-balik, supaya nggak buang kuota ekstra."
+      ],
+      "officialUrl": "https://labs.google/",
+      "keywords": [
+        "gabung video",
+        "edit klip",
+        "video iklan",
+        "susun scene",
+        "gabungin klip"
+      ],
+      "stageTags": [
+        "edit video",
+        "susun video"
+      ],
+      "description": "Tool penyusunan video dari Google Labs yang menggabungkan beberapa klip pendek (misalnya hasil dari Veo) menjadi satu video utuh lengkap dengan transisi dan susunan adegan yang rapi, tanpa memerlukan software editing video terpisah. Tool ini memudahkan siapa pun yang perlu menyusun materi video presentasi atau promosi tanpa harus menguasai software editing profesional.",
+      "studyCase": "Kelompok siswa SMA yang membuat video dokumentasi study tour bisa memakai Flow untuk menggabungkan berbagai klip pendek dari anggota kelompok menjadi satu video utuh yang runtut. Mahasiswa yang mengerjakan tugas video pembelajaran untuk mata kuliah tertentu bisa memakai Flow untuk menyusun beberapa klip hasil generate Veo menjadi satu video presentasi akhir yang siap dikumpulkan.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka labs.google dan cari Flow.",
+        "Upload beberapa klip video pendek (mis. hasil Veo) yang ingin digabungkan.",
+        "Susun urutan scene dan atur transisi antar klip.",
+        "Preview hasil gabungan, lalu export sebagai satu video utuh."
+      ]
+    },
+    {
+      "id": "jules",
+      "name": "Jules",
+      "vendor": "Google",
+      "category": "coding-agent",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit tugas/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Kelompokkan beberapa perbaikan kecil jadi satu task sekaligus supaya nggak boros kuota tugas bulanan."
+      ],
+      "officialUrl": "https://jules.google/",
+      "keywords": [
+        "bug",
+        "perbaiki kode",
+        "coding otomatis",
+        "pull request",
+        "github",
+        "fix error",
+        "perbaiki bug"
+      ],
+      "stageTags": [
+        "coding",
+        "fix bug"
+      ],
+      "description": "Agen coding asinkron dari Google yang mengerjakan tugas perbaikan bug atau penambahan fitur kecil di latar belakang dengan terhubung langsung ke repositori GitHub, lalu mengembalikan hasil pekerjaannya sebagai Pull Request yang siap direview — bukan asisten coding real-time seperti Copilot yang membantu saat mengetik. Tool ini cocok dipelajari mahasiswa jurusan Informatika/Ilmu Komputer sebagai contoh nyata bagaimana agen AI otonom bekerja dalam alur kerja pengembangan software modern.",
+      "studyCase": "Mahasiswa Ilmu Komputer yang sedang mengerjakan proyek akhir berbasis kode bisa memberi Jules tugas kecil seperti memperbaiki bug pada form validasi di aplikasi web mereka, lalu melanjutkan mengerjakan bagian lain dari proyek sambil menunggu Pull Request dari Jules siap direview. Kelompok mahasiswa yang mengelola proyek open source kampus bisa memakai Jules untuk menangani tumpukan perbaikan kecil yang sering tertunda karena keterbatasan waktu anggota tim.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka jules.google dan hubungkan akun GitHub kamu.",
+        "Pilih repository dan jelaskan tugas yang ingin dikerjakan (perbaikan bug/fitur kecil).",
+        "Biarkan Jules bekerja di background — kamu bisa lanjut kerjakan hal lain.",
+        "Review Pull Request yang dihasilkan sebelum di-merge ke branch utama."
+      ]
+    },
+    {
+      "id": "antigravity",
+      "name": "Antigravity",
+      "vendor": "Google",
+      "category": "coding-agent",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis (masih tahap freemium/preview)",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Mulai dari project kecil dulu buat kenalan sama alur agentic-nya sebelum pindah ke project besar yang makan lebih banyak kuota compute."
+      ],
+      "officialUrl": "https://labs.google/",
+      "keywords": [
+        "sistem besar",
+        "integrasi",
+        "coding kompleks",
+        "multi-agent",
+        "project besar",
+        "ide agentic"
+      ],
+      "stageTags": [
+        "coding",
+        "sistem besar"
+      ],
+      "description": "IDE agentic dari Google yang dirancang untuk proyek coding berskala lebih besar dengan banyak file dan modul yang saling terkait, di mana agent-nya bisa merencanakan dan mengeksekusi perubahan lintas bagian sistem sekaligus, bukan cuma satu file pada satu waktu. Tool ini relevan bagi mahasiswa yang mengerjakan proyek akhir atau tugas kelompok berskala besar yang melibatkan banyak modul saling terhubung.",
+      "studyCase": "Kelompok mahasiswa yang mengerjakan tugas akhir berupa sistem informasi dengan banyak modul saling terhubung (misalnya modul login, database, dan dashboard) bisa memakai Antigravity untuk mengelola perubahan lintas modul sekaligus, alih-alih mengedit satu file demi satu file secara terpisah. Bagi siswa SMA di klub coding tingkat lanjut, tool ini bisa jadi bahan pengenalan tentang bagaimana proyek software besar dikerjakan secara sistematis di dunia nyata.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka/install Antigravity lewat labs.google.",
+        "Hubungkan project atau repository yang ingin dikerjakan.",
+        "Jelaskan perubahan besar yang diinginkan (fitur baru, refactor lintas modul).",
+        "Review rencana dan perubahan yang diajukan agent sebelum menerapkannya ke codebase."
+      ]
+    },
+    {
+      "id": "gems",
+      "name": "Gems",
+      "vendor": "Google",
+      "category": "asisten-chat",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis, termasuk dalam Gemini app",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://gemini.google.com/",
+      "keywords": [
+        "asisten custom",
+        "cs bot",
+        "instruksi tersimpan",
+        "konteks berulang",
+        "persona",
+        "asisten pribadi"
+      ],
+      "stageTags": [
+        "asisten custom"
+      ],
+      "description": "Fitur di dalam Gemini app yang memungkinkan penggunanya menyimpan instruksi, gaya bahasa, dan file referensi menjadi sebuah 'asisten' custom yang bisa dipanggil ulang kapan saja, sehingga konteks dan gaya jawabannya tetap konsisten tanpa perlu dijelaskan berulang-ulang di setiap sesi chat baru. Dalam konteks pendidikan, fitur ini bisa dipakai untuk membuat asisten belajar pribadi yang sudah disetel sesuai gaya belajar atau mata pelajaran tertentu.",
+      "studyCase": "Siswa SMA bisa membuat Gem khusus mata pelajaran yang sulit dipahami (misalnya Matematika atau Fisika) yang sudah diisi dengan kumpulan rumus dan gaya penjelasan yang paling mudah mereka pahami, sehingga bisa dipanggil ulang kapan saja saat belajar. Pengurus organisasi kemahasiswaan bisa membuat Gem 'Customer Service Acara' yang sudah disetel dengan gaya bahasa dan daftar pertanyaan umum peserta, supaya jawaban ke calon peserta tetap konsisten meski dijawab oleh anggota panitia yang berbeda-beda.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com, klik menu Gems di sidebar.",
+        "Klik 'Buat Gem baru', lalu isi instruksi, gaya bahasa, dan upload file referensi (opsional).",
+        "Simpan Gem dengan nama yang mudah diingat.",
+        "Panggil Gem tersebut kapan saja dari daftar Gems untuk melanjutkan konteks yang sama."
+      ]
+    },
+    {
+      "id": "gemini-omni",
+      "name": "Gemini Omni",
+      "vendor": "Google",
+      "category": "generate-video",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Rollout terbatas — ketersediaan & harga tergantung tier akun",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Fitur ini rollout terbatas — cek dulu ketersediaan di akun kamu sebelum mengandalkannya untuk kebutuhan mendesak."
+      ],
+      "officialUrl": "https://gemini.google.com/",
+      "keywords": [
+        "video narasi otomatis",
+        "gambar video audio",
+        "video dengan narasi"
+      ],
+      "stageTags": [
+        "video narasi"
+      ],
+      "description": "Fitur eksperimental dari Google yang menggabungkan proses generate gambar, video, dan audio menjadi satu alur otomatis dalam satu prompt tunggal — misalnya langsung menghasilkan video lengkap dengan narasi tanpa perlu menyusun setiap elemen secara terpisah. Rollout fitur ini masih terbatas dan belum tentu tersedia di semua akun, tetapi berpotensi sangat memudahkan pembuatan materi video pembelajaran multimedia bila sudah tersedia.",
+      "studyCase": "Kalau sudah tersedia di akunnya, seorang guru atau mahasiswa yang ditugaskan membuat video pembelajaran bisa memakai Gemini Omni untuk langsung menghasilkan video penjelasan materi lengkap dengan narasi otomatis dari satu prompt saja, tanpa perlu menggabungkan tool generate video dan tool text-to-speech secara terpisah seperti biasanya.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka gemini.google.com dan cek apakah fitur Omni sudah tersedia di akunmu.",
+        "Tulis satu prompt yang mendeskripsikan hasil akhir multimedia yang diinginkan (video + narasi, dst).",
+        "Tinjau hasil gabungan gambar/video/audio yang dihasilkan.",
+        "Minta revisi pada bagian tertentu kalau elemen yang dihasilkan belum sesuai."
+      ]
+    },
+    {
+      "id": "claude-free",
+      "name": "Claude (free)",
+      "vendor": "Anthropic",
+      "category": "asisten-chat",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis dengan limit pesan harian",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://claude.ai/",
+      "keywords": [
+        "asisten",
+        "chat",
+        "tanya jawab",
+        "menulis",
+        "riset ringan"
+      ],
+      "stageTags": [
+        "riset awal",
+        "tanya jawab"
+      ],
+      "description": "Versi gratis dari Claude untuk kebutuhan tanya jawab, menulis, dan riset ringan sehari-hari, dengan batas jumlah pesan yang di-reset secara berkala. Model yang dipakai pada tier ini biasanya versi yang lebih ringan dibanding tier berbayarnya, namun tetap cukup memadai untuk tugas-tugas akademik yang tidak terlalu kompleks.",
+      "studyCase": "Siswa SMA bisa memakai Claude versi gratis untuk memeriksa tata bahasa tugas menulis bahasa Inggris sebelum dikumpulkan ke guru. Mahasiswa bisa memakai Claude gratis untuk sekadar merapikan struktur kalimat pada draf tugas kuliah harian yang tidak butuh model paling canggih.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka claude.ai dan daftar atau masuk dengan akun gratis.",
+        "Ketik pertanyaan atau instruksi di kolom chat.",
+        "Lanjutkan dengan pertanyaan susulan untuk memperjelas atau memperdalam jawaban.",
+        "Perhatikan sisa kuota pesan harian yang ditampilkan di aplikasi."
+      ]
+    },
+    {
+      "id": "claude-pro",
+      "name": "Claude Pro",
+      "vendor": "Anthropic",
+      "category": "asisten-chat",
+      "pricingTier": "paid",
+      "freeAlternativeId": "claude-free",
+      "pricing": {
+        "amount": "US$20/bulan (US$17/bulan jika tahunan)",
+        "billingNote": "Per pengguna individu",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://claude.com/pricing",
+      "keywords": [
+        "asisten",
+        "coding",
+        "menulis",
+        "riset"
+      ],
+      "stageTags": [
+        "riset",
+        "menulis",
+        "coding"
+      ],
+      "description": "Asisten AI serba guna dengan akses ke model paling canggih dari Anthropic, dilengkapi fitur Projects untuk mengelompokkan seluruh konteks percakapan berdasarkan proyek tertentu, fitur Artifacts untuk menghasilkan dokumen atau kode yang bisa langsung diedit, serta kuota untuk memakai Claude Code. Bagi pelajar yang mengerjakan proyek riset panjang, fitur Projects sangat membantu menjaga semua bahan dan diskusi tetap dalam satu konteks yang runtut.",
+      "studyCase": "Mahasiswa yang sedang mengerjakan skripsi bisa memakai fitur Projects di Claude Pro untuk mengumpulkan seluruh bahan riset, catatan bimbingan, dan draf bab dalam satu ruang kerja yang sama, sehingga tidak perlu menjelaskan ulang latar belakang penelitian setiap kali membuka sesi chat baru. Kelompok siswa SMA yang menyiapkan karya tulis untuk kompetisi tingkat nasional bisa memakai cara serupa untuk menjaga konsistensi argumen sepanjang proses penulisan yang panjang.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka claude.ai dan upgrade ke paket Pro lewat menu langganan.",
+        "Buat 'Project' baru untuk mengelompokkan konteks kerja tertentu (riset, tulisan, dst).",
+        "Upload file referensi ke Project supaya jawaban Claude selalu berpijak pada bahan tersebut.",
+        "Gunakan Artifacts untuk hasil kerja (dokumen/kode) yang ingin diedit langsung dalam panel terpisah."
+      ]
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "vendor": "Anthropic",
+      "category": "coding-agent",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Termasuk dalam paket Claude Pro/Max, atau bayar sesuai pemakaian API",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Pantau pemakaian token/limit paket supaya sesi coding panjang nggak tiba-tiba kehabisan kuota di tengah jalan."
+      ],
+      "officialUrl": "https://claude.com/claude-code",
+      "keywords": [
+        "coding agent",
+        "cli",
+        "refactor",
+        "debug",
+        "generate kode",
+        "automasi coding"
+      ],
+      "stageTags": [
+        "coding",
+        "fix bug",
+        "sistem besar"
+      ],
+      "description": "Agen coding yang berjalan langsung di terminal, mampu membaca, mengedit, dan menjalankan perintah pada kode sungguhan di komputer pengguna — bukan sekadar memberi saran seperti di editor kode biasa. Tool ini cocok untuk tugas pemrograman yang membutuhkan pemahaman konteks lintas banyak file sekaligus, seperti proyek akhir mahasiswa Informatika yang melibatkan banyak berkas kode saling terhubung.",
+      "studyCase": "Mahasiswa jurusan Teknik Informatika yang mengerjakan tugas akhir berupa aplikasi web bisa memakai Claude Code untuk membantu menyusun struktur proyek, menuliskan pengujian otomatis, dan menjalankan proses build langsung dari terminal tanpa harus berpindah-pindah aplikasi. Kelompok mahasiswa yang mengembangkan proyek open source untuk portofolio bisa memakai Claude Code untuk mempercepat proses debugging pada kode yang sudah cukup kompleks.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Install Claude Code lewat terminal sesuai dokumentasi resmi.",
+        "Jalankan perintah claude di dalam folder project yang ingin dikerjakan.",
+        "Jelaskan tugas yang diinginkan dalam bahasa natural — Claude Code akan membaca dan mengedit file yang relevan.",
+        "Review perubahan yang diajukan sebelum menyetujui commit/build."
+      ]
+    },
+    {
+      "id": "chatgpt-free",
+      "name": "ChatGPT (free)",
+      "vendor": "OpenAI",
+      "category": "asisten-chat",
+      "pricingTier": "free",
+      "pricing": {
+        "amount": "Gratis dengan limit penggunaan model & fitur",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://chatgpt.com/",
+      "keywords": [
+        "asisten",
+        "chat",
+        "tanya jawab",
+        "brainstorming",
+        "ide awal"
+      ],
+      "stageTags": [
+        "riset awal",
+        "brainstorming"
+      ],
+      "description": "Versi gratis dari ChatGPT untuk kebutuhan tanya jawab dan brainstorming sehari-hari, dengan akses ke model dasar dan batasan penggunaan fitur lanjutan seperti pembuatan gambar dan penelusuran web yang lebih ketat dibanding tier Plus. Tetap memadai untuk kebutuhan belajar dasar seperti bertanya konsep pelajaran atau mencari ide tugas.",
+      "studyCase": "Siswa SMA bisa memakai ChatGPT gratis untuk bertanya penjelasan ulang materi pelajaran yang belum dipahami setelah jam sekolah selesai. Mahasiswa bisa memakai ChatGPT gratis untuk brainstorming ide topik tugas kuliah di sela-sela waktu senggang tanpa perlu berlangganan bulanan.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka chatgpt.com dan daftar atau masuk dengan akun gratis.",
+        "Ketik pertanyaan di kolom chat, atau pilih salah satu contoh prompt yang ditampilkan.",
+        "Lanjutkan percakapan dengan pertanyaan susulan sesuai kebutuhan.",
+        "Mulai chat baru kalau ingin membahas topik yang berbeda."
+      ]
+    },
+    {
+      "id": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "vendor": "OpenAI",
+      "category": "asisten-chat",
+      "pricingTier": "paid",
+      "freeAlternativeId": "chatgpt-free",
+      "pricing": {
+        "amount": "US$20/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://chatgpt.com/",
+      "keywords": [
+        "asisten",
+        "chat lanjutan",
+        "generate gambar",
+        "coding",
+        "riset lanjutan"
+      ],
+      "stageTags": [
+        "riset",
+        "menulis",
+        "coding"
+      ],
+      "description": "Akses ke model dan kuota yang lebih besar dari ChatGPT, termasuk fitur pembuatan gambar, penelusuran web secara langsung, dan analisis data yang lebih mendalam yang tidak tersedia sepenuhnya di tier gratis. Fitur-fitur ini sangat membantu untuk riset akademik yang membutuhkan informasi terkini dan pengolahan data dalam jumlah besar.",
+      "studyCase": "Mahasiswa yang sedang menyusun tugas akhir dan perlu melakukan penelusuran web sekaligus analisis data survei dalam satu sesi kerja bisa memakai ChatGPT Plus supaya tidak terkendala batasan kuota di tengah proses pengerjaan. Kelompok siswa SMA yang mengikuti kompetisi riset ilmiah remaja bisa memakai fitur analisis data ChatGPT Plus untuk mengolah data hasil survei penelitian mereka.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka chatgpt.com dan upgrade ke Plus lewat pengaturan akun.",
+        "Pilih model yang ingin dipakai sesuai kebutuhan (riset, gambar, coding, dst).",
+        "Aktifkan fitur browsing web kalau butuh informasi terkini.",
+        "Gunakan fitur analisis data dengan mengupload file (spreadsheet, dokumen) langsung ke chat."
+      ]
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "vendor": "OpenAI",
+      "category": "generate-video",
+      "pricingTier": "paid",
+      "freeAlternativeId": "veo",
+      "pricing": {
+        "amount": "Termasuk dalam ChatGPT Plus/Pro, kuota video sesuai tier",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://sora.chatgpt.com/",
+      "keywords": [
+        "video pendek",
+        "video dari teks",
+        "video sinematik",
+        "reels",
+        "video promo"
+      ],
+      "stageTags": [
+        "video pendek"
+      ],
+      "description": "Model generate video dari OpenAI yang menonjol dalam kualitas sinematik dan konsistensi visual antar-frame, menghasilkan video pendek dengan gaya visual yang terasa lebih 'seperti film' dibanding generator video pada umumnya. Cocok dipakai untuk proyek video yang menuntut kesan visual lebih premium, misalnya video promosi acara besar sekolah atau kampus.",
+      "studyCase": "Panitia acara wisuda atau perpisahan sekolah yang ingin membuat video teaser dengan kesan sinematik bisa mencoba Sora untuk menghasilkan cuplikan visual yang terasa lebih premium dibanding video promosi biasa. Mahasiswa jurusan Perfilman atau Komunikasi bisa memakai Sora sebagai bahan eksperimen tugas mata kuliah videografi digital untuk mempelajari gaya visual yang dihasilkan model AI generate video.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka sora.chatgpt.com dan masuk dengan akun ChatGPT Plus/Pro.",
+        "Tulis deskripsi adegan video yang diinginkan selengkap mungkin (gaya visual, gerakan, suasana).",
+        "Generate video dan tinjau hasilnya.",
+        "Minta variasi atau revisi prompt kalau hasil belum sesuai ekspektasi."
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "vendor": "Perplexity AI",
+      "category": "riset-dokumen",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit Pro Search harian; Pro US$20/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Simpan pencarian mendalam (Pro Search) untuk pertanyaan riset penting — pertanyaan ringan cukup pakai mode reguler yang tidak memotong kuota Pro.",
+        "Cek langsung sumber yang disitasi kalau butuh detail lebih dalam dari yang ditampilkan di ringkasan jawaban."
+      ],
+      "officialUrl": "https://www.perplexity.ai/",
+      "keywords": [
+        "riset",
+        "cari sumber",
+        "pencarian",
+        "jawaban bersitasi",
+        "rangkuman berita"
+      ],
+      "stageTags": [
+        "riset"
+      ],
+      "description": "Mesin pencari berbasis AI yang menjawab pertanyaan dengan ringkasan yang selalu menyertakan sitasi ke sumber aslinya, sehingga hasilnya jauh lebih mudah diverifikasi dibanding jawaban chatbot pada umumnya. Fitur Pro Search-nya melakukan riset bertahap untuk menjawab pertanyaan yang lebih kompleks. Karena selalu menyertakan sumber, tool ini sangat cocok untuk kebutuhan akademik yang menuntut kejujuran akademik dan kemudahan pengecekan referensi.",
+      "studyCase": "Siswa SMA yang mengerjakan karya tulis ilmiah bisa memakai Perplexity untuk mencari fakta pendukung sekaligus mendapatkan link sumber asli yang bisa langsung dicantumkan sebagai referensi. Mahasiswa yang sedang menyusun tinjauan pustaka skripsi bisa memakai fitur Pro Search untuk melakukan riset literatur bertahap dan langsung memverifikasi setiap klaim ke sumber jurnal aslinya, mengurangi risiko kesalahan sitasi.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka perplexity.ai dan ketik pertanyaan di kolom pencarian.",
+        "Baca ringkasan jawaban beserta sumber yang disitasi di bagian bawah/samping.",
+        "Klik sumber yang relevan untuk membaca detail lengkapnya.",
+        "Aktifkan mode Pro Search untuk pertanyaan yang butuh riset multi-langkah lebih mendalam."
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "vendor": "Midjourney",
+      "category": "generate-gambar",
+      "pricingTier": "paid",
+      "freeAlternativeId": "nano-banana",
+      "pricing": {
+        "amount": "Mulai ~US$10/bulan (paket Basic), tanpa tier gratis permanen",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://www.midjourney.com/",
+      "keywords": [
+        "gambar artistik",
+        "ilustrasi",
+        "gaya visual",
+        "concept art",
+        "gambar detail"
+      ],
+      "stageTags": [
+        "gambar"
+      ],
+      "description": "Generator gambar AI yang unggul dalam kualitas artistik dan kontrol detail gaya visual (pencahayaan, komposisi, suasana), populer di kalangan desainer dan ilustrator untuk membuat concept art atau visual branding yang menuntut sentuhan estetika tinggi. Kemampuannya membuat gambar bergaya khas ini juga berguna untuk proyek seni atau desain di lingkungan pendidikan.",
+      "studyCase": "Mahasiswa jurusan Desain Komunikasi Visual atau Seni Rupa bisa memakai Midjourney untuk mengeksplorasi berbagai gaya ilustrasi sebagai bahan tugas mata kuliah, karena kontrol visualnya lebih detail dibanding generator gambar gratis biasa. Siswa SMA yang mengikuti ekstrakurikuler jurnalistik sekolah bisa memakai Midjourney untuk membuat ilustrasi sampul majalah dinding atau buletin sekolah dengan gaya visual yang lebih artistik.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka midjourney.com dan berlangganan salah satu paket (tidak ada tier gratis permanen).",
+        "Gunakan web app atau Discord bot untuk mengetik prompt gambar yang diinginkan.",
+        "Pilih salah satu dari beberapa variasi gambar yang dihasilkan untuk di-upscale.",
+        "Unduh gambar final dalam resolusi tinggi."
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "vendor": "Canva",
+      "category": "desain-grafis",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan fitur inti; Canva Pro ~US$12.99/bulan per pengguna",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Manfaatkan template & elemen gratis dulu sebelum pakai fitur Magic/Pro, supaya kuota AI generatif nggak cepat habis.",
+        "Pakai fitur Magic Resize buat satu desain otomatis jadi berbagai ukuran (story, feed, banner) sekaligus, daripada desain ulang manual tiap ukuran."
+      ],
+      "officialUrl": "https://www.canva.com/",
+      "keywords": [
+        "poster",
+        "desain sosmed",
+        "template",
+        "banner",
+        "presentasi visual",
+        "editing gambar"
+      ],
+      "stageTags": [
+        "gambar",
+        "presentasi-visual"
+      ],
+      "description": "Editor desain grafis berbasis template yang sangat ramah untuk pemula, dilengkapi fitur AI (Magic Studio) untuk generate gambar, menghapus latar belakang, dan mengubah ukuran desain secara otomatis ke berbagai format platform sosial media sekaligus. Karena kemudahannya, Canva menjadi salah satu tool desain paling banyak dipakai di lingkungan sekolah dan kampus untuk berbagai keperluan visual.",
+      "studyCase": "Siswa SMA yang ditugaskan membuat poster untuk mata pelajaran Prakarya atau Bahasa Indonesia bisa memakai Canva dengan template siap pakai, lalu tinggal menyesuaikan teks dan gambar sesuai tema tugas. Pengurus organisasi kemahasiswaan yang mengelola publikasi acara kampus bisa memakai fitur Magic Resize di Canva supaya satu desain poster otomatis jadi berbagai ukuran untuk Instagram Story, feed, dan spanduk digital sekaligus.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka canva.com dan pilih template sesuai kebutuhan (poster, feed, presentasi, dst).",
+        "Sesuaikan teks, gambar, dan warna lewat editor drag-and-drop.",
+        "Gunakan fitur Magic Studio kalau butuh generate gambar atau hapus background otomatis.",
+        "Pakai Magic Resize untuk mengubah satu desain ke berbagai ukuran platform sekaligus."
+      ]
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "vendor": "Adobe",
+      "category": "generate-gambar",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan kredit generatif bulanan terbatas; paket berbayar mulai ~US$9.99/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Kredit generatif bulanan gratis terbatas — prioritaskan buat aset final, uji coba komposisi pakai draft resolusi rendah dulu."
+      ],
+      "officialUrl": "https://firefly.adobe.com/",
+      "keywords": [
+        "generate gambar",
+        "edit foto",
+        "efek visual",
+        "background",
+        "generative fill"
+      ],
+      "stageTags": [
+        "gambar"
+      ],
+      "description": "Generative AI dari Adobe yang terintegrasi langsung ke dalam Photoshop dan Illustrator, dengan model yang dilatih dari materi berlisensi sehingga lebih aman secara hak cipta dibanding generator gambar pada umumnya — poin penting untuk karya yang akan dipublikasikan secara resmi oleh institusi pendidikan. Kuat digunakan untuk generative fill (mengisi atau mengganti bagian gambar) dan pembuatan efek teks.",
+      "studyCase": "Mahasiswa jurusan Desain yang sedang menyusun portofolio tugas akhir bisa memakai Adobe Firefly untuk mengganti latar belakang foto produk atau ilustrasi tugas tanpa perlu sesi foto ulang, langsung dari dalam Photoshop yang sudah biasa mereka pakai. Tim redaksi majalah sekolah bisa memakai Firefly untuk membuat elemen visual pendukung artikel yang aman digunakan tanpa risiko pelanggaran hak cipta gambar.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka firefly.adobe.com, atau akses langsung dari dalam Photoshop/Illustrator.",
+        "Pilih fitur yang dibutuhkan (generate gambar, generative fill, efek teks).",
+        "Tulis prompt atau seleksi area gambar yang ingin diubah.",
+        "Sempurnakan hasil dengan mengulang generate atau mengedit manual di Photoshop."
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "vendor": "n8n",
+      "category": "no-code-otomatisasi",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis unlimited self-host; Cloud mulai ~US$20/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Self-host versi gratisnya kalau mau tanpa batas eksekusi — versi cloud berbayar cocok kalau nggak mau urus server sendiri."
+      ],
+      "officialUrl": "https://n8n.io/",
+      "keywords": [
+        "otomatisasi",
+        "workflow",
+        "integrasi api",
+        "sistem permanen",
+        "automasi bisnis"
+      ],
+      "stageTags": [
+        "otomatisasi",
+        "sistem besar"
+      ],
+      "description": "Tool otomatisasi workflow open-source yang bisa dijalankan sendiri (self-host) tanpa batas eksekusi, dengan editor visual berbasis node yang fleksibel untuk menghubungkan berbagai API, database, dan layanan pihak ketiga menjadi satu sistem otomatis yang berjalan permanen. Karena sifatnya open-source dan gratis untuk di-self-host, n8n juga jadi bahan belajar yang baik bagi mahasiswa yang ingin memahami konsep otomatisasi sistem secara mendalam.",
+      "studyCase": "Mahasiswa jurusan Sistem Informasi yang mengambil topik otomatisasi bisnis untuk tugas akhir bisa memakai n8n untuk membangun dan mendemonstrasikan sistem otomatisasi nyata, misalnya alur order-ke-notifikasi untuk studi kasus UMKM. Komunitas atau klub coding kampus yang mengelola bisnis kecil sebagai proyek kewirausahaan mahasiswa bisa memakai n8n self-hosted untuk menjalankan otomatisasi customer service secara permanen tanpa biaya langganan bulanan.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Install n8n secara self-host (Docker/npm) atau daftar ke n8n Cloud.",
+        "Buat workflow baru dan tambahkan node trigger (mis. webhook, jadwal, atau form).",
+        "Sambungkan node-node aksi berikutnya (API, database, notifikasi) sesuai alur yang diinginkan.",
+        "Aktifkan (publish) workflow supaya berjalan otomatis secara permanen."
+      ]
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "vendor": "Zapier",
+      "category": "no-code-otomatisasi",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis 100 tugas/bulan; paket berbayar mulai ~US$19.99/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Gabungkan beberapa langkah jadi satu Zap multi-step daripada bikin banyak Zap terpisah, supaya kuota tugas bulanan gratis lebih awet."
+      ],
+      "officialUrl": "https://zapier.com/",
+      "keywords": [
+        "otomatisasi",
+        "integrasi aplikasi",
+        "workflow no-code",
+        "automasi bisnis"
+      ],
+      "stageTags": [
+        "otomatisasi"
+      ],
+      "description": "Penghubung otomatisasi dengan jangkauan integrasi paling luas (ribuan aplikasi) lewat model trigger-action yang sederhana tanpa kode, cocok untuk otomatisasi lintas-aplikasi yang tidak memerlukan logika bercabang yang rumit. Kemudahan setupnya membuat Zapier jadi pilihan yang ramah untuk pelajar yang baru belajar konsep otomatisasi tanpa latar belakang pemrograman.",
+      "studyCase": "Pengurus organisasi kemahasiswaan yang mengelola pendaftaran acara bisa memakai Zapier untuk menghubungkan formulir pendaftaran online ke Google Sheets dan notifikasi otomatis, tanpa perlu kemampuan coding sama sekali. Siswa SMA yang menjalankan proyek kewirausahaan sekolah dalam skala kecil bisa memakai Zapier untuk otomatis mencatat setiap pesanan yang masuk ke dalam spreadsheet pembukuan sederhana.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka zapier.com dan buat Zap baru.",
+        "Pilih aplikasi trigger (kejadian yang memulai alur) dan aplikasi action (yang dijalankan setelahnya).",
+        "Petakan data dari trigger ke field yang dibutuhkan di action.",
+        "Uji Zap dengan data contoh, lalu aktifkan."
+      ]
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "vendor": "Make",
+      "category": "no-code-otomatisasi",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis 1.000 operasi/bulan; paket berbayar mulai ~US$9/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Pakai scenario dengan router/filter supaya satu scenario bisa menangani banyak kasus, menghemat kuota operasi bulanan."
+      ],
+      "officialUrl": "https://www.make.com/",
+      "keywords": [
+        "otomatisasi visual",
+        "workflow kompleks",
+        "integrasi api",
+        "automasi bisnis"
+      ],
+      "stageTags": [
+        "otomatisasi",
+        "sistem besar"
+      ],
+      "description": "Otomatisasi workflow visual (disebut 'scenario') yang mendukung alur bercabang, perulangan, dan logika kondisional yang lebih kompleks dibanding Zapier, cocok untuk kebutuhan otomatisasi yang memerlukan pengambilan keputusan di tengah alur kerja. Kompleksitas visualnya yang tetap mudah dipahami membuat Make jadi media belajar logika pemrograman yang cukup ramah bagi pemula.",
+      "studyCase": "Mahasiswa yang mengambil mata kuliah terkait sistem informasi atau logika algoritma bisa memakai Make sebagai media belajar berpikir bercabang (if-else) secara visual, sebelum benar-benar menulis kode pemrograman sungguhan. Kelompok mahasiswa yang menjalankan bisnis kecil di sela kuliah bisa memakai Make untuk membuat alur otomatis yang mengecek ketersediaan stok sebelum mengonfirmasi pesanan pelanggan.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka make.com dan buat scenario baru.",
+        "Tambahkan modul-modul (aplikasi/layanan) yang ingin dihubungkan secara visual.",
+        "Tambahkan router/filter kalau alur perlu bercabang sesuai kondisi tertentu.",
+        "Jalankan scenario secara manual untuk uji coba, lalu aktifkan jadwal otomatisnya."
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "vendor": "Figma",
+      "category": "desain-ui",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis untuk starter; paket berbayar mulai ~US$12/editor/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Batasi jumlah file aktif di tim gratis — arsipkan project lama supaya tidak kena limit file/editor gratis."
+      ],
+      "officialUrl": "https://www.figma.com/",
+      "keywords": [
+        "desain ui",
+        "prototipe",
+        "wireframe",
+        "kolaborasi desain",
+        "design system"
+      ],
+      "stageTags": [
+        "desain",
+        "mockup"
+      ],
+      "description": "Tool desain UI/prototyping kolaboratif standar industri yang memungkinkan banyak orang mengedit file yang sama secara bersamaan dan real-time, dilengkapi fitur design system (komponen dan gaya visual yang bisa dipakai ulang) untuk menjaga konsistensi tampilan pada proyek besar. Karena banyak dipakai di industri, kemampuan memakai Figma menjadi bekal keterampilan yang berharga bagi mahasiswa desain maupun pengembangan software.",
+      "studyCase": "Kelompok mahasiswa yang mengerjakan tugas akhir berupa rancangan aplikasi bisa memakai Figma agar seluruh anggota tim bisa mendesain dan memberi komentar pada file yang sama secara bersamaan, tanpa harus bertukar file bolak-balik. Siswa SMA yang mengikuti ekstrakurikuler atau kompetisi UI/UX design bisa memakai Figma untuk belajar dasar-dasar desain antarmuka sekaligus berkolaborasi dengan rekan satu tim.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka figma.com dan buat file desain baru.",
+        "Gunakan frame dan komponen untuk menyusun tampilan halaman/aplikasi.",
+        "Undang kolaborator untuk mengedit atau memberi komentar di file yang sama secara real-time.",
+        "Gunakan mode Prototype untuk menghubungkan antar frame jadi alur interaktif yang bisa dites."
+      ]
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "vendor": "Notion",
+      "category": "produktivitas-dokumen",
+      "pricingTier": "paid",
+      "pricing": {
+        "amount": "Add-on ~US$8-10/anggota/bulan di atas paket Notion",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://www.notion.com/product/ai",
+      "keywords": [
+        "ringkasan dokumen",
+        "tulis dokumen",
+        "database catatan",
+        "wiki tim",
+        "produktivitas"
+      ],
+      "stageTags": [
+        "menulis",
+        "produktivitas"
+      ],
+      "description": "Fitur AI di dalam Notion untuk meringkas halaman catatan yang panjang, menulis draf dari poin-poin singkat, dan menjawab pertanyaan berdasarkan isi database atau catatan yang sudah ada — semuanya tanpa perlu keluar dari halaman Notion yang sedang dikerjakan. Karena Notion sudah lazim dipakai untuk mencatat materi kuliah dan mengelola proyek organisasi, fitur AI ini langsung terasa manfaatnya dalam rutinitas belajar sehari-hari.",
+      "studyCase": "Mahasiswa yang mencatat materi kuliah panjang di Notion bisa memakai Notion AI untuk meringkas catatan tersebut menjadi poin-poin penting sebelum masa ujian, menghemat waktu belajar ulang dari nol. Pengurus organisasi kemahasiswaan yang menyimpan seluruh dokumentasi rapat di Notion bisa memakai Notion AI untuk merangkum hasil rapat panjang menjadi daftar tindak lanjut yang ringkas.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka halaman Notion yang ingin diringkas atau dikembangkan.",
+        "Ketik '/' lalu pilih perintah AI (ringkas, tulis, terjemahkan, dst), atau blok teks lalu klik 'Ask AI'.",
+        "Tinjau hasilnya dan masukkan ke halaman kalau sudah sesuai.",
+        "Gunakan AI untuk menjawab pertanyaan berdasarkan isi database/wiki yang sudah ada."
+      ]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "vendor": "HubSpot",
+      "category": "sales-crm",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "CRM inti gratis; Marketing/Sales Hub berbayar mulai ~US$15/bulan/seat",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Mulai dari CRM gratisnya buat rapikan data kontak dulu sebelum upgrade ke Marketing Hub berbayar."
+      ],
+      "officialUrl": "https://www.hubspot.com/",
+      "keywords": [
+        "crm",
+        "kelola kontak",
+        "email marketing",
+        "sales pipeline",
+        "otomatisasi sales"
+      ],
+      "stageTags": [
+        "sales",
+        "crm"
+      ],
+      "description": "Platform CRM dan marketing all-in-one dengan tier gratis yang cukup lengkap untuk mengelola data kontak, pipeline penjualan, dan email marketing dasar, sebelum perlu upgrade ke fitur otomatisasi marketing yang lebih canggih. Meski dirancang untuk bisnis, konsep CRM di HubSpot juga relevan dipelajari mahasiswa jurusan Manajemen atau Bisnis sebagai contoh nyata pengelolaan hubungan pelanggan secara profesional.",
+      "studyCase": "Mahasiswa jurusan Manajemen yang mengerjakan simulasi bisnis atau studi kasus pemasaran untuk tugas kuliah bisa memakai tier gratis HubSpot untuk mempraktikkan langsung cara mengelola data pelanggan dan pipeline penjualan secara nyata. Kelompok mahasiswa yang menjalankan usaha kecil sebagai proyek kewirausahaan kampus bisa memakai HubSpot gratis untuk mulai merapikan data pelanggan yang tadinya hanya tercatat manual di spreadsheet.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Daftar akun gratis di hubspot.com.",
+        "Import atau tambahkan data kontak pelanggan ke CRM.",
+        "Atur pipeline penjualan (tahapan mulai dari prospek sampai closing).",
+        "Gunakan fitur email marketing dasar untuk mengirim kampanye ke daftar kontak."
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "vendor": "Runway",
+      "category": "generate-video",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis kredit percobaan terbatas; paket berbayar mulai ~US$12/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Uji komposisi/gerakan di resolusi & durasi pendek dulu sebelum render final, supaya kredit gratis nggak cepat habis buat percobaan."
+      ],
+      "officialUrl": "https://runwayml.com/",
+      "keywords": [
+        "video generatif",
+        "video editing ai",
+        "green screen ai",
+        "motion brush"
+      ],
+      "stageTags": [
+        "video pendek",
+        "edit video"
+      ],
+      "description": "Suite AI video generatif dan editing dengan kontrol yang lebih presisi (motion brush, kontrol kamera, green screen berbasis AI) dibanding generator video sekali-generate biasa, populer di kalangan editor video yang membutuhkan kendali kreatif lebih detail. Fitur penghapusan latar belakang otomatisnya sangat membantu produksi video pelajar yang tidak punya akses studio profesional.",
+      "studyCase": "Mahasiswa jurusan Film atau Desain Komunikasi Visual yang mengerjakan tugas video pendek bisa memakai Runway untuk menghapus latar belakang video secara otomatis tanpa memerlukan green screen fisik sungguhan. Tim media sekolah yang membuat video profil sekolah bisa memakai fitur editing berbasis AI di Runway untuk menghasilkan efek visual yang lebih menarik tanpa peralatan produksi mahal.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka runwayml.com dan buat project baru.",
+        "Upload video/gambar, lalu pilih tool yang dibutuhkan (green screen, motion brush, generate video).",
+        "Atur parameter (durasi, gaya, kontrol kamera) sesuai kebutuhan.",
+        "Render dan unduh hasil akhirnya."
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "vendor": "ElevenLabs",
+      "category": "generate-suara",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis ~10.000 karakter/bulan; paket berbayar mulai ~US$5/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Karakter/bulan di tier gratis terbatas — draft naskah dulu di luar tool, generate audio cuma untuk versi final."
+      ],
+      "officialUrl": "https://elevenlabs.io/",
+      "keywords": [
+        "text to speech",
+        "voice over",
+        "suara ai",
+        "dubbing",
+        "narasi audio"
+      ],
+      "stageTags": [
+        "voice over",
+        "audio"
+      ],
+      "description": "Text-to-speech dan voice cloning dengan kualitas suara paling natural di kelasnya, mendukung banyak bahasa termasuk Bahasa Indonesia, dan bisa dipakai untuk dubbing video ke bahasa lain sambil mempertahankan karakter suara aslinya. Tool ini sangat membantu pembuatan materi audio/video pembelajaran bagi siswa maupun mahasiswa yang tidak percaya diri dengan suara rekaman mereka sendiri.",
+      "studyCase": "Mahasiswa yang ditugaskan membuat video pembelajaran atau podcast edukasi untuk tugas kuliah bisa memakai ElevenLabs untuk menghasilkan suara narator yang jernih dalam Bahasa Indonesia, tanpa perlu merekam ulang berkali-kali saat naskah direvisi. Siswa SMA yang mengikuti lomba pembuatan video edukasi bisa memakai ElevenLabs untuk membuat sulih suara yang terdengar profesional meski tidak memiliki peralatan rekaman audio yang bagus.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka elevenlabs.io dan pilih menu Text to Speech.",
+        "Tempel naskah yang ingin diubah jadi suara, lalu pilih karakter suara yang sesuai.",
+        "Generate audio dan dengarkan hasilnya — sesuaikan intonasi lewat tanda baca kalau perlu.",
+        "Unduh file audio, atau gunakan fitur dubbing kalau perlu alih bahasa."
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "vendor": "GitHub / Microsoft",
+      "category": "coding-agent",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis terbatas (mis. akun pelajar/maintainer tertentu); Individual ~US$10/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Cek eligibility tier gratis (pelajar/maintainer open source) — kalau tidak eligible, uji dulu pakai trial sebelum putuskan langganan bulanan."
+      ],
+      "officialUrl": "https://github.com/features/copilot",
+      "keywords": [
+        "autocomplete kode",
+        "coding assistant",
+        "pull request review",
+        "generate kode"
+      ],
+      "stageTags": [
+        "coding"
+      ],
+      "description": "Asisten coding yang terintegrasi langsung di dalam editor kode (VS Code, JetBrains, dan lainnya), memberi saran baris atau blok kode secara real-time saat pengguna mengetik berdasarkan konteks file yang sedang dibuka, serta bisa membantu mereview Pull Request secara otomatis. Bagi mahasiswa Ilmu Komputer, tool ini membantu mempercepat penulisan kode rutin sehingga bisa lebih fokus memahami logika program yang lebih penting.",
+      "studyCase": "Mahasiswa semester awal yang sedang belajar pemrograman dasar bisa memakai saran autocomplete GitHub Copilot untuk memahami pola penulisan kode yang benar sambil tetap belajar logikanya sendiri. Mahasiswa tingkat akhir yang mengerjakan skripsi berbasis pengembangan software bisa memakai Copilot untuk mempercepat penulisan kode boilerplate yang berulang, sehingga waktu lebih banyak tercurah ke logika inti aplikasi.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Install ekstensi GitHub Copilot di editor kode (VS Code/JetBrains).",
+        "Login dengan akun GitHub yang sudah punya akses Copilot.",
+        "Mulai mengetik kode — saran otomatis akan muncul, tekan Tab untuk menerimanya.",
+        "Gunakan Copilot Chat untuk bertanya atau minta penjelasan soal kode yang sedang dikerjakan."
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "vendor": "Anysphere",
+      "category": "coding-agent",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit request; Pro ~US$20/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Pakai model bawaan yang lebih ringan untuk tugas kecil, simpan kuota request model premium untuk task coding yang benar-benar kompleks."
+      ],
+      "officialUrl": "https://www.cursor.com/",
+      "keywords": [
+        "ide ai",
+        "coding agent",
+        "refactor",
+        "chat dengan codebase",
+        "generate kode"
+      ],
+      "stageTags": [
+        "coding",
+        "sistem besar"
+      ],
+      "description": "Code editor berbasis AI (hasil pengembangan dari VS Code) dengan mode chat dan agent yang memahami konteks seluruh basis kode proyek, bukan cuma file yang sedang dibuka saja — sangat berguna untuk melakukan refactor lintas file atau memahami proyek besar yang belum familiar. Kemampuan ini bermanfaat bagi mahasiswa yang harus melanjutkan atau memodifikasi kode proyek dari mahasiswa/tim sebelumnya.",
+      "studyCase": "Mahasiswa yang harus melanjutkan proyek tugas akhir dari kode yang ditinggalkan tim sebelumnya bisa memakai Cursor untuk memahami keterkaitan antar file dalam proyek tersebut secara otomatis, sebelum melakukan modifikasi lebih lanjut. Kelompok mahasiswa yang mengerjakan proyek kelompok berbasis kode besar bisa memakai mode agent di Cursor untuk melakukan refactor lintas file secara lebih cepat dan konsisten.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Download dan install Cursor dari cursor.com.",
+        "Buka folder project yang ingin dikerjakan.",
+        "Gunakan panel chat/agent untuk menjelaskan perubahan yang diinginkan dalam bahasa natural.",
+        "Review diff perubahan yang diajukan sebelum menerimanya ke dalam kode."
+      ]
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "vendor": "DeepL",
+      "category": "penerjemahan",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit karakter/bulan; Pro mulai ~US$8.74/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Tempel teks per bagian secukupnya di tier gratis daripada sekaligus dokumen besar, supaya nggak cepat kena limit karakter."
+      ],
+      "officialUrl": "https://www.deepl.com/",
+      "keywords": [
+        "terjemahan",
+        "translate dokumen",
+        "bahasa asing",
+        "penerjemah"
+      ],
+      "stageTags": [
+        "terjemahan"
+      ],
+      "description": "Mesin penerjemah dengan kualitas hasil yang natural dan pemahaman konteks kalimat yang lebih baik dibanding mesin penerjemah umum untuk pasangan bahasa mayor, sangat kuat untuk menerjemahkan dokumen formal dan teks akademik yang panjang. Akurasi kontekstualnya membuat tool ini lebih dipercaya untuk keperluan akademik dibanding penerjemah mesin biasa.",
+      "studyCase": "Mahasiswa yang perlu membaca jurnal internasional berbahasa asing untuk bahan skripsi bisa memakai DeepL untuk menerjemahkan bagian-bagian penting jurnal tersebut dengan hasil yang lebih natural dan mudah dipahami dibanding penerjemah mesin biasa. Siswa SMA yang mengikuti program pertukaran pelajar atau kompetisi internasional bisa memakai DeepL untuk menerjemahkan dokumen pendaftaran atau esai motivasi ke bahasa asing dengan hasil yang lebih rapi.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka deepl.com dan pilih bahasa asal serta bahasa tujuan.",
+        "Tempel atau ketik teks yang ingin diterjemahkan.",
+        "Tinjau hasil terjemahan, klik kata tertentu untuk melihat alternatif terjemahan lain.",
+        "Untuk dokumen, upload file langsung dan unduh hasil terjemahannya dalam format yang sama."
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "vendor": "Grammarly",
+      "category": "penulisan",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis fitur dasar; Premium mulai ~US$12/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Pakai cek grammar/ejaan dasar gratis untuk draft harian, aktifkan saran gaya bahasa Premium cuma buat tulisan yang benar-benar akan dipublikasikan."
+      ],
+      "officialUrl": "https://www.grammarly.com/",
+      "keywords": [
+        "cek grammar",
+        "ejaan",
+        "gaya bahasa",
+        "proofread",
+        "menulis bahasa inggris"
+      ],
+      "stageTags": [
+        "menulis",
+        "revisi"
+      ],
+      "description": "Asisten penulisan yang memeriksa tata bahasa, ejaan, tanda baca, dan gaya bahasa Inggris secara real-time di browser, editor dokumen, maupun email, lengkap dengan saran nada tulisan (formal atau santai) sesuai konteks penggunaannya. Sangat membantu pelajar yang menulis dalam Bahasa Inggris namun belum sepenuhnya percaya diri dengan tata bahasanya.",
+      "studyCase": "Mahasiswa yang harus menulis abstrak skripsi dalam Bahasa Inggris bisa memakai Grammarly untuk memastikan tata bahasa dan ejaannya sudah benar sebelum diserahkan ke dosen pembimbing. Siswa SMA yang sedang mempersiapkan esai untuk beasiswa atau pendaftaran universitas luar negeri bisa memakai Grammarly untuk mengecek draf tulisannya supaya terlihat lebih profesional dan bebas dari kesalahan tata bahasa yang mendasar.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Install ekstensi Grammarly di browser, atau buka grammarly.com untuk editor web.",
+        "Tempel atau tulis teks yang ingin diperiksa.",
+        "Tinjau saran perbaikan grammar, ejaan, dan gaya bahasa yang muncul.",
+        "Terapkan saran satu per satu, atau gunakan 'Fix all' untuk perbaikan cepat."
+      ]
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "vendor": "Otter.ai",
+      "category": "transkripsi",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis ~300 menit transkripsi/bulan; paket berbayar mulai ~US$8.33/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Kuota menit transkripsi bulanan gratis terbatas — pakai buat meeting penting saja, catatan singkat cukup ditulis manual."
+      ],
+      "officialUrl": "https://otter.ai/",
+      "keywords": [
+        "transkrip meeting",
+        "catatan rapat",
+        "rekaman ke teks",
+        "notulen otomatis"
+      ],
+      "stageTags": [
+        "transkripsi",
+        "produktivitas"
+      ],
+      "description": "Transkripsi rapat atau kuliah secara otomatis dan real-time, lengkap dengan pembagian pembicara (speaker labels) dan ringkasan poin-poin penting setelah sesi selesai, sehingga tidak perlu ada satu orang yang harus mencatat secara manual sepanjang sesi berlangsung. Tool ini sangat membantu pelajar yang kesulitan mencatat sambil menyimak penjelasan secara bersamaan.",
+      "studyCase": "Mahasiswa yang menghadiri kuliah tamu atau seminar penting bisa memakai Otter.ai untuk merekam dan mentranskrip seluruh materi secara otomatis, sehingga bisa fokus menyimak tanpa khawatir ada poin penting yang terlewat dicatat. Pengurus organisasi kemahasiswaan yang mengadakan rapat rutin bisa memakai Otter.ai untuk mendokumentasikan hasil rapat secara otomatis dan membagikannya ke anggota yang berhalangan hadir.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka otter.ai dan mulai rekaman baru (atau hubungkan ke aplikasi meeting seperti Zoom/Google Meet).",
+        "Biarkan Otter mentranskrip pembicaraan secara real-time selama sesi berlangsung.",
+        "Setelah selesai, tinjau transkrip dan ringkasan otomatis yang dihasilkan.",
+        "Edit nama pembicara atau bagian transkrip yang kurang tepat, lalu bagikan catatannya."
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "vendor": "Descript",
+      "category": "generate-video",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit menit transkripsi/ekspor; paket berbayar mulai ~US$12/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Edit draft kasar dulu pakai kuota transkripsi gratis, baru render/export final setelah yakin skrip nggak berubah lagi."
+      ],
+      "officialUrl": "https://www.descript.com/",
+      "keywords": [
+        "edit video lewat teks",
+        "edit podcast",
+        "hapus filler word",
+        "transkrip video"
+      ],
+      "stageTags": [
+        "edit video",
+        "transkripsi"
+      ],
+      "description": "Edit video atau podcast dengan cara mengedit transkrip teksnya secara langsung — menghapus kalimat pada teks akan otomatis memotong bagian video yang sesuai. Fitur penghapusan filler word ('eh', 'umm') secara otomatis juga sangat menghemat waktu proses editing manual yang biasanya memakan waktu lama. Kemudahan ini membuat produksi video atau podcast edukasi jadi jauh lebih ringkas dikerjakan pelajar tanpa latar belakang editing video.",
+      "studyCase": "Mahasiswa yang mengelola podcast edukasi kampus bisa memakai Descript untuk mengedit hasil rekaman dengan cara menghapus bagian teks transkrip yang tidak diperlukan, jauh lebih cepat dibanding menggeser-geser timeline video secara manual. Siswa SMA yang membuat video tugas presentasi bisa memakai fitur penghapus filler word otomatis di Descript supaya hasil rekaman terdengar lebih rapi tanpa perlu take ulang berkali-kali.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka descript.com dan upload file video/audio yang ingin diedit.",
+        "Tunggu proses transkripsi otomatis selesai.",
+        "Edit video dengan menghapus/memindahkan teks di transkrip — video ikut berubah otomatis.",
+        "Gunakan fitur hapus filler word, lalu export hasil akhirnya."
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "vendor": "Synthesia",
+      "category": "generate-video",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis terbatas (beberapa menit); paket berbayar mulai ~US$18/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Gabungkan beberapa skrip pendek jadi satu video sekali render, karena kuota menit video gratis biasanya sangat terbatas per bulan."
+      ],
+      "officialUrl": "https://www.synthesia.io/",
+      "keywords": [
+        "video avatar ai",
+        "presenter ai",
+        "video training",
+        "video narasi teks ke video"
+      ],
+      "stageTags": [
+        "video pendek",
+        "presentasi-visual"
+      ],
+      "description": "Membuat video dengan avatar AI yang membacakan naskah dalam berbagai bahasa, tanpa memerlukan kamera, talent, atau studio rekaman — cocok untuk video pembelajaran atau pengumuman yang formatnya rutin dan sering diperbarui. Karena tidak memerlukan syuting ulang setiap kali ada perubahan naskah, tool ini sangat efisien untuk kebutuhan materi ajar yang perlu sering diperbarui.",
+      "studyCase": "Guru atau mahasiswa yang ditugaskan membuat video pembelajaran untuk kelas daring bisa memakai Synthesia agar materi bisa disampaikan lewat avatar AI tanpa perlu tampil di depan kamera secara langsung. Pengurus organisasi kemahasiswaan yang membuat video onboarding anggota baru bisa memakai Synthesia agar ketika prosedur organisasi berubah, mereka cukup memperbarui naskahnya tanpa perlu syuting ulang.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka synthesia.io dan buat project video baru.",
+        "Pilih avatar AI dan bahasa yang diinginkan.",
+        "Tulis atau tempel naskah yang akan dibacakan avatar.",
+        "Preview video, lalu render dan unduh hasilnya."
+      ]
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "vendor": "Jasper",
+      "category": "penulisan",
+      "pricingTier": "paid",
+      "pricing": {
+        "amount": "Mulai ~US$39/bulan, tanpa tier gratis permanen",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://www.jasper.ai/",
+      "keywords": [
+        "copywriting",
+        "konten marketing",
+        "brand voice",
+        "artikel marketing"
+      ],
+      "stageTags": [
+        "menulis",
+        "campaign"
+      ],
+      "description": "Tool penulisan konten marketing yang bisa dilatih dengan 'brand voice' khusus supaya seluruh tulisan tetap konsisten gayanya, umumnya dipakai tim marketing untuk memproduksi banyak copy iklan atau artikel secara konsisten dalam waktu singkat. Meski ditujukan untuk kebutuhan bisnis, konsep brand voice ini juga relevan dipelajari mahasiswa jurusan Komunikasi atau Pemasaran.",
+      "studyCase": "Mahasiswa jurusan Ilmu Komunikasi atau Pemasaran yang mempelajari konsep brand voice untuk tugas kuliah bisa mencoba Jasper untuk melihat langsung bagaimana AI menjaga konsistensi gaya tulisan sebuah brand di berbagai jenis konten. Kelompok mahasiswa yang mengelola beberapa akun promosi produk kewirausahaan kampus sekaligus bisa memakai Jasper supaya gaya bahasa tiap produk tetap konsisten walau ditulis dengan bantuan AI yang sama.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka jasper.ai dan buat brand voice/profil brand (opsional tapi direkomendasikan).",
+        "Pilih template konten yang dibutuhkan (iklan, artikel, caption, dst).",
+        "Isi brief singkat (produk, target audiens, poin penting), lalu generate.",
+        "Edit hasil generate supaya sesuai brand voice sebelum dipublikasikan."
+      ]
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "vendor": "Framer",
+      "category": "desain-ui",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis untuk 1 project (subdomain framer); paket berbayar mulai ~US$5/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Publish di subdomain gratis dulu buat uji coba sebelum connect custom domain yang butuh plan berbayar."
+      ],
+      "officialUrl": "https://www.framer.com/",
+      "keywords": [
+        "landing page",
+        "website no-code",
+        "desain responsif",
+        "publish website"
+      ],
+      "stageTags": [
+        "desain",
+        "build aplikasi"
+      ],
+      "description": "Mendesain sekaligus mempublikasikan website atau landing page tanpa kode, dari mockup langsung menjadi situs yang benar-benar hidup di internet — berbeda dari Figma yang hasilnya masih berupa desain statis, bukan situs yang benar-benar berfungsi. Kemudahan ini memungkinkan pelajar membuat website portofolio atau halaman acara sendiri tanpa perlu bantuan developer.",
+      "studyCase": "Mahasiswa yang ingin membuat website portofolio pribadi untuk melamar magang bisa memakai Framer untuk mendesain sekaligus langsung mempublikasikan situsnya tanpa perlu menyerahkan ke developer untuk coding ulang. Panitia acara kampus (seperti seminar nasional atau job fair) bisa memakai Framer untuk membuat landing page pendaftaran acara yang terlihat profesional hanya dalam waktu singkat.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka framer.com dan pilih template atau mulai dari kanvas kosong.",
+        "Susun halaman dengan drag-and-drop elemen (teks, gambar, section).",
+        "Sesuaikan tampilan responsif untuk mobile dan desktop.",
+        "Klik Publish untuk langsung menerbitkan situs ke internet."
+      ]
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "vendor": "Airtable",
+      "category": "data-analisis-bi",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis dengan limit record/base; paket berbayar mulai ~US$20/seat/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Arsipkan/hapus record lama secara berkala supaya nggak kena limit jumlah record per base di tier gratis."
+      ],
+      "officialUrl": "https://www.airtable.com/",
+      "keywords": [
+        "database spreadsheet",
+        "kelola data",
+        "tracker project",
+        "automasi data"
+      ],
+      "stageTags": [
+        "data",
+        "produktivitas"
+      ],
+      "description": "Hybrid spreadsheet-database yang menggabungkan kemudahan spreadsheet dengan kekuatan relasi antar tabel layaknya database, dilengkapi berbagai jenis tampilan (grid, kanban, kalender) dari data yang sama untuk kebutuhan yang berbeda-beda. Fleksibilitas ini memudahkan organisasi pelajar mengelola data anggota, jadwal kegiatan, atau inventaris acara dengan lebih rapi dibanding spreadsheet biasa.",
+      "studyCase": "Pengurus organisasi kemahasiswaan yang mengelola data ratusan anggota dan jadwal kegiatan bisa memakai Airtable dengan tampilan kanban untuk memantau status setiap program kerja, dan tampilan grid untuk detail lengkap data anggota — semuanya dari satu sumber data yang sama. Kelompok siswa SMA yang mengelola inventaris peralatan ekstrakurikuler bisa memakai Airtable untuk mencatat kondisi dan ketersediaan barang secara lebih terorganisir dibanding buku catatan manual.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka airtable.com dan buat base baru (atau pakai template yang tersedia).",
+        "Definisikan kolom/field sesuai data yang ingin dicatat (teks, tanggal, relasi ke tabel lain, dst).",
+        "Tambahkan data, lalu buat beberapa view (grid, kanban, kalender) sesuai kebutuhan.",
+        "Gunakan fitur automasi bawaan kalau perlu notifikasi otomatis dari perubahan data."
+      ]
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "vendor": "Linear",
+      "category": "project-management",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis untuk tim kecil; paket berbayar mulai ~US$8/seat/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Tier gratis cukup buat tim kecil — pantau jumlah anggota aktif supaya nggak otomatis kena limit seat."
+      ],
+      "officialUrl": "https://linear.app/",
+      "keywords": [
+        "issue tracker",
+        "manajemen project",
+        "roadmap",
+        "sprint planning"
+      ],
+      "stageTags": [
+        "project management"
+      ],
+      "description": "Tool manajemen issue dan proyek dengan antarmuka yang cepat dan minim hambatan, dirancang khusus untuk alur kerja tim produk atau rekayasa perangkat lunak (sprint, roadmap, prioritas bug) dibanding tool manajemen proyek umum yang lebih generik. Cocok dipelajari mahasiswa Informatika sebagai pengenalan alur kerja pengembangan software profesional.",
+      "studyCase": "Kelompok mahasiswa yang mengerjakan proyek open source kampus sebagai bahan portofolio bisa memakai Linear untuk mengelola daftar issue dan menentukan prioritas fitur yang perlu dikerjakan tiap anggota tim. Klub coding SMA tingkat lanjut yang mulai mengerjakan proyek bersama dalam skala lebih besar bisa memakai Linear sebagai latihan awal memahami cara kerja tim software profesional mengatur pekerjaannya.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka linear.app dan buat workspace/tim baru.",
+        "Buat issue untuk tiap tugas, lengkap dengan prioritas dan assignee.",
+        "Kelompokkan issue ke dalam cycle (sprint) atau project tertentu.",
+        "Pantau progres lewat tampilan roadmap atau board."
+      ]
+    },
+    {
+      "id": "intercom-fin",
+      "name": "Intercom Fin",
+      "vendor": "Intercom",
+      "category": "customer-support",
+      "pricingTier": "paid",
+      "pricing": {
+        "amount": "Berbasis biaya per resolusi AI, mulai ~US$0.99/resolusi di atas paket dasar Intercom",
+        "verifiedAt": null
+      },
+      "freeTierTips": [],
+      "officialUrl": "https://www.intercom.com/fin",
+      "keywords": [
+        "cs bot",
+        "customer support ai",
+        "balas tiket otomatis",
+        "chatbot dukungan pelanggan"
+      ],
+      "stageTags": [
+        "cs"
+      ],
+      "description": "AI agent customer support yang menjawab tiket pelanggan secara otomatis berdasarkan basis pengetahuan (pusat bantuan, FAQ) yang sudah tersedia, dan hanya mengeskalasi ke manusia untuk kasus yang benar-benar di luar cakupan pengetahuannya. Konsep ini relevan dipelajari mahasiswa yang tertarik pada bidang customer experience atau pengembangan chatbot layanan pelanggan.",
+      "studyCase": "Mahasiswa jurusan Sistem Informasi yang meneliti topik chatbot layanan pelanggan berbasis AI untuk tugas akhir bisa mempelajari Intercom Fin sebagai studi kasus nyata implementasi AI agent di industri. Bisnis kecil yang dikelola mahasiswa sebagai proyek kewirausahaan dengan volume chat pelanggan yang tinggi bisa mempertimbangkan tool semacam ini untuk otomatis menjawab pertanyaan berulang, sehingga tim bisa fokus ke kasus yang lebih rumit.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Aktifkan Fin dari dashboard Intercom yang sudah terhubung dengan help center/FAQ.",
+        "Pastikan basis pengetahuan (artikel bantuan) sudah lengkap dan terbarui.",
+        "Uji Fin dengan beberapa pertanyaan umum pelanggan untuk melihat akurasi jawabannya.",
+        "Atur aturan eskalasi ke agen manusia untuk kasus yang di luar cakupan Fin."
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "vendor": "Replit",
+      "category": "coding-agent",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis untuk project dasar; paket berbayar mulai ~US$20/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Jalankan project kecil/eksperimen di tier gratis, upgrade cuma kalau butuh compute lebih besar atau deployment permanen."
+      ],
+      "officialUrl": "https://replit.com/",
+      "keywords": [
+        "ide online",
+        "coding agent",
+        "deploy aplikasi",
+        "build aplikasi dari prompt"
+      ],
+      "stageTags": [
+        "coding",
+        "build aplikasi",
+        "deploy"
+      ],
+      "description": "IDE online dengan agent coding yang bisa langsung membangun dan mempublikasikan aplikasi dari deskripsi teks, tanpa perlu menyiapkan environment pengembangan di komputer lokal sama sekali — semuanya berjalan langsung di browser. Kemudahan aksesnya membuat Replit jadi pilihan populer untuk pelajar yang baru mulai belajar pemrograman tanpa laptop dengan spesifikasi tinggi.",
+      "studyCase": "Siswa SMA yang baru belajar dasar-dasar pemrograman di sekolah bisa memakai Replit untuk langsung menulis dan menjalankan kode dari browser tanpa perlu menginstal software apa pun di laptop sekolah. Mahasiswa yang ingin bereksperimen membangun aplikasi kecil sebagai proyek belajar mandiri bisa memakai agent coding Replit untuk langsung mencoba ide aplikasinya dari HP atau laptop kapan saja.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka replit.com dan buat Repl baru sesuai bahasa pemrograman yang diinginkan.",
+        "Tulis kode langsung di editor browser, atau gunakan Agent untuk mendeskripsikan aplikasi yang ingin dibuat.",
+        "Jalankan project untuk melihat hasilnya secara langsung.",
+        "Klik Deploy kalau ingin mempublikasikan aplikasi secara permanen."
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "vendor": "Suno",
+      "category": "generate-musik",
+      "pricingTier": "freemium",
+      "pricing": {
+        "amount": "Gratis ~50 lagu/bulan (kredit terbatas); paket berbayar mulai ~US$10/bulan",
+        "verifiedAt": null
+      },
+      "freeTierTips": [
+        "Kuota generate lagu gratis biasanya terbatas per bulan — simpan buat ide lagu yang udah matang, bukan coba-coba random."
+      ],
+      "officialUrl": "https://suno.com/",
+      "keywords": [
+        "generate lagu",
+        "musik ai",
+        "backsound",
+        "lirik ke lagu"
+      ],
+      "stageTags": [
+        "musik"
+      ],
+      "description": "Menghasilkan lagu lengkap (melodi, lirik, dan vokal) hanya dari deskripsi teks singkat, cocok untuk kebutuhan musik latar konten atau eksperimen kreatif cepat tanpa memerlukan kemampuan bermusik maupun software produksi musik profesional. Tool ini membuka peluang berkarya musik bagi pelajar yang tidak punya latar belakang musik formal.",
+      "studyCase": "Siswa SMA yang membuat proyek video atau drama pendek untuk tugas sekolah bisa memakai Suno untuk membuat lagu tema orisinal sebagai musik latar, sehingga terhindar dari masalah hak cipta lagu populer. Mahasiswa yang membuat konten kreatif untuk lomba atau media sosial organisasi kampus bisa memakai Suno untuk menghasilkan jingle pendek yang orisinal dan bebas royalti.",
+      "needsPriceVerification": true,
+      "tutorial": [
+        "Buka suno.com dan buat lagu baru.",
+        "Tulis deskripsi genre/suasana lagu, atau tulis liriknya sendiri.",
+        "Generate lagu dan dengarkan beberapa variasi yang dihasilkan.",
+        "Unduh versi yang paling sesuai untuk dipakai sebagai musik latar."
+      ]
+    }
+  ]
+}

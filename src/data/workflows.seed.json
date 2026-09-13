@@ -1,0 +1,433 @@
+{
+  "dataVersion": "2026-09-13",
+  "lastUpdated": "2026-09-13T00:00:00Z",
+  "workflows": [
+    {
+      "id": "konten-iklan-dari-nol",
+      "title": "Bikin Konten Iklan dari Nol",
+      "category": "marketing-campaign",
+      "summary": "Alur lengkap dari cari ide campaign sampai jadi materi iklan siap posting, tanpa perlu tim kreatif besar.",
+      "steps": [
+        { "toolId": "pomelli", "instruction": "Masukkan URL brand/usaha ke Pomelli untuk cari ide campaign — biarkan gaya visual dan konsep brand yang sudah ada, jangan diubah dulu di tahap ini." },
+        { "toolId": "canva", "instruction": "Pakai ide dari Pomelli sebagai acuan, lalu desain visual iklan (poster/feed) di Canva pakai template yang sesuai." },
+        { "toolId": "jasper", "instruction": "Tulis copywriting/caption iklan dengan brand voice yang konsisten di Jasper, mengikuti konsep yang sama dari langkah pertama." },
+        { "toolId": "veo", "instruction": "Kalau butuh versi video, generate klip pendek dari visual yang sudah jadi pakai Veo." }
+      ]
+    },
+    {
+      "id": "materi-promosi-harian",
+      "title": "Bikin Materi Promosi Media Sosial Harian",
+      "category": "marketing-campaign",
+      "summary": "Alur cepat untuk kebutuhan posting rutin harian yang gambarnya sering ganti-ganti.",
+      "steps": [
+        { "toolId": "canva", "instruction": "Siapkan satu template dasar di Canva yang bisa dipakai ulang tiap hari." },
+        { "toolId": "nano-banana", "instruction": "Generate variasi gambar harian pakai Nano Banana untuk mengisi template, kuotanya longgar jadi aman dipakai tiap hari." },
+        { "toolId": "grammarly", "instruction": "Cek caption yang ditulis pakai Grammarly sebelum posting, terutama kalau captionnya berbahasa Inggris." }
+      ]
+    },
+    {
+      "id": "riset-kompetitor-campaign",
+      "title": "Riset Kompetitor untuk Campaign Baru",
+      "category": "marketing-campaign",
+      "summary": "Kumpulkan insight kompetitor dulu sebelum brainstorming ide campaign supaya arahnya lebih tajam.",
+      "steps": [
+        { "toolId": "perplexity", "instruction": "Riset tren dan strategi kompetitor di Perplexity, catat sumber-sumber yang disitasi sebagai bukti." },
+        { "toolId": "notion-ai", "instruction": "Rangkum hasil riset yang panjang jadi poin-poin penting pakai Notion AI." },
+        { "toolId": "pomelli", "instruction": "Masukkan insight tadi sebagai konteks tambahan saat generate ide campaign di Pomelli." },
+        { "toolId": "jasper", "instruction": "Tulis draf copy iklan dari ide campaign terpilih pakai Jasper." }
+      ]
+    },
+    {
+      "id": "video-promo-tiktok",
+      "title": "Bikin Video Promo Pendek untuk TikTok/Reels",
+      "category": "generate-video",
+      "steps": [
+        { "toolId": "veo", "instruction": "Generate beberapa klip pendek dari deskripsi produk atau foto katalog pakai Veo." },
+        { "toolId": "flow", "instruction": "Gabungkan klip-klip tadi jadi satu video utuh dengan transisi yang rapi di Flow." },
+        { "toolId": "elevenlabs", "instruction": "Tambahkan voice over narasi produk pakai ElevenLabs." },
+        { "toolId": "descript", "instruction": "Rapikan hasil akhir dan hapus filler word (kalau ada bagian rekaman asli) di Descript sebelum diunggah." }
+      ],
+      "summary": "Dari klip mentah sampai video siap posting, lengkap dengan narasi dan editing rapi."
+    },
+    {
+      "id": "poster-acara-sekolah",
+      "title": "Bikin Poster Event/Acara",
+      "category": "desain-grafis",
+      "summary": "Cocok untuk panitia acara sekolah/kampus yang butuh poster cepat tanpa jasa desainer.",
+      "steps": [
+        { "toolId": "gemini-app", "instruction": "Brainstorming tema dan pesan utama acara di Gemini app." },
+        { "toolId": "nano-banana-pro", "instruction": "Bikin poster dengan Nano Banana Pro supaya teks tanggal, tempat, dan judul acara terbaca jelas dan presisi." },
+        { "toolId": "canva", "instruction": "Resize poster ke berbagai ukuran (story, feed, spanduk digital) sekaligus pakai Canva." }
+      ]
+    },
+    {
+      "id": "crm-follow-up-pelanggan",
+      "title": "Kelola CRM & Follow-up Pelanggan",
+      "category": "sales-crm",
+      "summary": "Merapikan data pelanggan sekaligus mengotomatiskan pengingat follow-up.",
+      "steps": [
+        { "toolId": "hubspot", "instruction": "Masukkan data kontak pelanggan dan atur pipeline penjualan dasar di HubSpot." },
+        { "toolId": "zapier", "instruction": "Hubungkan HubSpot dengan notifikasi otomatis (email/chat) di Zapier supaya follow-up tidak terlewat." }
+      ]
+    },
+    {
+      "id": "jingle-musik-latar",
+      "title": "Bikin Jingle/Musik Latar Konten",
+      "category": "generate-musik",
+      "summary": "Musik latar orisinal untuk konten, bebas masalah hak cipta lagu populer.",
+      "steps": [
+        { "toolId": "suno", "instruction": "Generate beberapa variasi jingle pendek sesuai suasana konten di Suno." },
+        { "toolId": "descript", "instruction": "Masukkan jingle terpilih dan sinkronkan dengan video di Descript." }
+      ]
+    },
+    {
+      "id": "karya-tulis-ilmiah",
+      "title": "Menyusun Karya Tulis Ilmiah dari Nol",
+      "category": "riset-dokumen",
+      "summary": "Alur dari topik masih kosong sampai naskah siap dikumpulkan, cocok untuk siswa SMA maupun mahasiswa.",
+      "steps": [
+        { "toolId": "gemini-app", "instruction": "Brainstorming beberapa kemungkinan topik dan rumusan masalah di Gemini app." },
+        { "toolId": "notebooklm", "instruction": "Upload sumber bacaan/jurnal ke NotebookLM dan riset mendalam berbasis sumber tersebut." },
+        { "toolId": "gemini-canvas", "instruction": "Tulis dan revisi draf karya tulis bagian per bagian di Gemini Canvas." },
+        { "toolId": "perplexity", "instruction": "Cek tambahan fakta pendukung dengan sitasi jelas di Perplexity sebelum finalisasi." }
+      ]
+    },
+    {
+      "id": "persiapan-ujian-modul",
+      "title": "Persiapan Ujian dari Modul Kuliah/Sekolah",
+      "category": "riset-dokumen",
+      "summary": "Ubah tumpukan modul jadi rangkuman dan latihan soal yang siap dipelajari.",
+      "steps": [
+        { "toolId": "notebooklm", "instruction": "Upload seluruh modul/catatan ke satu notebook, lalu minta rangkuman per bab dan kuis latihan." },
+        { "toolId": "gemini-app", "instruction": "Tanyakan konsep-konsep yang masih belum dipahami dari hasil rangkuman ke Gemini app." }
+      ]
+    },
+    {
+      "id": "menulis-sidang-skripsi",
+      "title": "Menulis Skripsi Sampai Siap Sidang",
+      "category": "riset-dokumen",
+      "summary": "Alur panjang dari riset literatur, penulisan bab, sampai bahan presentasi sidang.",
+      "steps": [
+        { "toolId": "perplexity", "instruction": "Riset literatur awal dengan sitasi jelas ke sumber jurnal asli di Perplexity." },
+        { "toolId": "notebooklm", "instruction": "Upload semua jurnal referensi ke NotebookLM untuk didalami secara menyeluruh." },
+        { "toolId": "claude-pro", "instruction": "Kumpulkan seluruh bahan riset dan catatan bimbingan dalam satu Project di Claude Pro supaya konteksnya tetap konsisten." },
+        { "toolId": "gemini-canvas", "instruction": "Tulis dan revisi tiap bab secara bertahap di Gemini Canvas." },
+        { "toolId": "notebooklm", "instruction": "Generate slide presentasi sidang dari sumber-sumber yang sama di NotebookLM." }
+      ]
+    },
+    {
+      "id": "terjemahkan-jurnal-internasional",
+      "title": "Menerjemahkan & Memahami Jurnal Internasional",
+      "category": "penerjemahan",
+      "summary": "Membaca jurnal berbahasa asing jadi lebih cepat dan tetap dipahami mendalam.",
+      "steps": [
+        { "toolId": "deepl", "instruction": "Terjemahkan bagian-bagian penting jurnal ke Bahasa Indonesia di DeepL." },
+        { "toolId": "notebooklm", "instruction": "Upload hasil terjemahan ke NotebookLM untuk didalami dan ditanyai lebih lanjut." }
+      ]
+    },
+    {
+      "id": "podcast-belajar-modul",
+      "title": "Bikin Podcast Belajar dari Modul Kuliah",
+      "category": "riset-dokumen",
+      "summary": "Materi bacaan diubah jadi audio yang enak didengar sambil beraktivitas.",
+      "steps": [
+        { "toolId": "notebooklm", "instruction": "Upload modul ke NotebookLM lalu generate Audio Overview jadi podcast diskusi dua suara." },
+        { "toolId": "descript", "instruction": "Edit hasil Audio Overview lebih lanjut (potong bagian tertentu) di Descript kalau perlu." }
+      ]
+    },
+    {
+      "id": "esai-beasiswa",
+      "title": "Menyiapkan Esai Beasiswa/Aplikasi Kampus",
+      "category": "penulisan",
+      "summary": "Dari brainstorming cerita pribadi sampai esai yang rapi secara bahasa.",
+      "steps": [
+        { "toolId": "gemini-app", "instruction": "Brainstorming cerita dan motivasi pribadi yang relevan di Gemini app." },
+        { "toolId": "gemini-canvas", "instruction": "Susun dan revisi draf esai bertahap di Gemini Canvas." },
+        { "toolId": "grammarly", "instruction": "Cek grammar dan gaya bahasa Inggris di Grammarly sebelum dikirim." }
+      ]
+    },
+    {
+      "id": "riset-ilmiah-remaja-survei",
+      "title": "Riset Ilmiah Remaja dengan Data Survei",
+      "category": "riset-dokumen",
+      "summary": "Mengolah data survei sederhana jadi laporan penelitian yang didukung studi lain.",
+      "steps": [
+        { "toolId": "chatgpt-plus", "instruction": "Upload data survei dan minta analisis data awal di ChatGPT Plus." },
+        { "toolId": "perplexity", "instruction": "Cari studi/sumber pendukung yang relevan dengan sitasi jelas di Perplexity." },
+        { "toolId": "gemini-canvas", "instruction": "Susun laporan penelitian dari hasil analisis dan referensi tadi di Gemini Canvas." }
+      ]
+    },
+    {
+      "id": "aplikasi-tugas-akhir",
+      "title": "Bangun Aplikasi untuk Tugas Akhir/Proyek Kuliah",
+      "category": "coding-agent",
+      "summary": "Dari mockup tampilan sampai aplikasi fungsional yang bisa didemokan.",
+      "steps": [
+        { "toolId": "stitch", "instruction": "Bikin beberapa alternatif mockup tampilan aplikasi dulu di Stitch." },
+        { "toolId": "ai-studio-build", "instruction": "Ubah mockup terpilih jadi aplikasi yang benar-benar berfungsi di AI Studio Build." },
+        { "toolId": "claude-code", "instruction": "Rapikan struktur kode dan tulis pengujian otomatis pakai Claude Code." },
+        { "toolId": "jules", "instruction": "Serahkan perbaikan bug-bug kecil yang tersisa ke Jules supaya bisa dikerjakan di background." }
+      ]
+    },
+    {
+      "id": "refactor-codebase-besar",
+      "title": "Refactor Codebase Besar Peninggalan Tim Sebelumnya",
+      "category": "coding-agent",
+      "summary": "Memahami dan merapikan kode besar yang belum familiar tanpa membongkar semuanya sekaligus.",
+      "steps": [
+        { "toolId": "cursor", "instruction": "Pakai mode agent di Cursor untuk memahami keterkaitan antar file dalam proyek." },
+        { "toolId": "antigravity", "instruction": "Eksekusi perubahan lintas modul yang lebih besar dengan bantuan Antigravity." },
+        { "toolId": "github-copilot", "instruction": "Percepat penulisan kode rutin/boilerplate yang berulang dengan GitHub Copilot." }
+      ]
+    },
+    {
+      "id": "kelola-proyek-open-source",
+      "title": "Kelola Proyek Open Source Kampus",
+      "category": "coding-agent",
+      "summary": "Menjaga proyek open source tetap rapi meski dikerjakan tim kecil dengan waktu terbatas.",
+      "steps": [
+        { "toolId": "linear", "instruction": "Catat semua issue dan tentukan prioritas fitur yang perlu dikerjakan di Linear." },
+        { "toolId": "jules", "instruction": "Serahkan perbaikan-perbaikan kecil yang menumpuk ke Jules." },
+        { "toolId": "github-copilot", "instruction": "Pakai GitHub Copilot untuk mempercepat pengerjaan issue sehari-hari." }
+      ]
+    },
+    {
+      "id": "belajar-coding-tanpa-install",
+      "title": "Belajar Coding dari Nol tanpa Install Apapun",
+      "category": "coding-agent",
+      "summary": "Cocok untuk siswa/mahasiswa yang laptopnya terbatas atau belum mau install software berat.",
+      "steps": [
+        { "toolId": "replit", "instruction": "Tulis dan jalankan kode langsung dari browser di Replit, tanpa install apa pun." },
+        { "toolId": "github-copilot", "instruction": "Aktifkan saran autocomplete GitHub Copilot untuk belajar pola penulisan kode yang benar." }
+      ]
+    },
+    {
+      "id": "sistem-otomatisasi-organisasi",
+      "title": "Bangun Sistem Otomatisasi Bisnis/Organisasi",
+      "category": "no-code-otomatisasi",
+      "summary": "Mulai dari uji konsep kecil sampai sistem otomatis yang berjalan permanen.",
+      "steps": [
+        { "toolId": "opal", "instruction": "Uji dulu alur otomatisasi sederhana (mis. klasifikasi pesan masuk) di Opal." },
+        { "toolId": "n8n", "instruction": "Kalau alurnya terbukti jalan, bangun ulang jadi sistem permanen self-hosted di n8n." },
+        { "toolId": "make", "instruction": "Tambahkan logic bercabang yang lebih kompleks di Make kalau n8n dirasa kurang fleksibel untuk kasus tertentu." }
+      ]
+    },
+    {
+      "id": "deploy-landing-page-tanpa-coding",
+      "title": "Deploy Landing Page Tanpa Coding",
+      "category": "no-code-otomatisasi",
+      "summary": "Dari desain sampai situs benar-benar online dalam waktu singkat.",
+      "steps": [
+        { "toolId": "figma", "instruction": "Desain mockup halaman terlebih dulu di Figma." },
+        { "toolId": "framer", "instruction": "Bangun ulang jadi situs yang benar-benar hidup dan langsung publish di Framer." }
+      ]
+    },
+    {
+      "id": "dokumentasi-review-proyek-tim",
+      "title": "Dokumentasi & Review Proyek Tim",
+      "category": "project-management",
+      "summary": "Menjaga progres tim tetap terlihat dan terdokumentasi rapi.",
+      "steps": [
+        { "toolId": "figma", "instruction": "Kolaborasi desain bareng tim secara real-time di Figma." },
+        { "toolId": "linear", "instruction": "Catat semua task dan progresnya di Linear." },
+        { "toolId": "notion-ai", "instruction": "Ringkas hasil rapat/dokumentasi proyek yang panjang pakai Notion AI." }
+      ]
+    },
+    {
+      "id": "desain-ui-aplikasi",
+      "title": "Desain UI Aplikasi dari Nol",
+      "category": "desain-ui",
+      "summary": "Dari eksplorasi visual cepat sampai aplikasi yang benar-benar bisa dicoba.",
+      "steps": [
+        { "toolId": "stitch", "instruction": "Eksplorasi beberapa alternatif tampilan secara cepat di Stitch." },
+        { "toolId": "figma", "instruction": "Rapikan jadi desain detail dan prototype interaktif di Figma." },
+        { "toolId": "ai-studio-build", "instruction": "Ubah desain final jadi aplikasi fungsional di AI Studio Build." }
+      ]
+    },
+    {
+      "id": "ilustrasi-sampul-majalah",
+      "title": "Bikin Ilustrasi Sampul Majalah Sekolah/Kampus",
+      "category": "desain-grafis",
+      "summary": "Visual sampul dengan gaya ilustrasi khas, tanpa perlu ilustrator profesional.",
+      "steps": [
+        { "toolId": "midjourney", "instruction": "Eksplorasi beberapa gaya ilustrasi yang sesuai tema edisi di Midjourney." },
+        { "toolId": "canva", "instruction": "Susun ilustrasi terpilih jadi layout sampul majalah lengkap dengan judul di Canva." }
+      ]
+    },
+    {
+      "id": "edit-foto-produk-katalog",
+      "title": "Edit Foto Produk untuk Katalog",
+      "category": "generate-gambar",
+      "summary": "Foto produk seadanya diubah jadi terlihat lebih profesional untuk katalog.",
+      "steps": [
+        { "toolId": "adobe-firefly", "instruction": "Ganti background dan perbaiki detail foto produk lewat generative fill di Adobe Firefly." },
+        { "toolId": "canva", "instruction": "Susun foto-foto yang sudah diedit jadi layout katalog visual di Canva." }
+      ]
+    },
+    {
+      "id": "portofolio-desain-online",
+      "title": "Bikin Portofolio Desain Online",
+      "category": "desain-ui",
+      "summary": "Karya desain yang tadinya cuma file statis, jadi website portofolio yang bisa dibagikan.",
+      "steps": [
+        { "toolId": "figma", "instruction": "Kumpulkan dan rapikan seluruh karya desain di Figma." },
+        { "toolId": "framer", "instruction": "Publish karya-karya tersebut jadi website portofolio yang benar-benar hidup di Framer." }
+      ]
+    },
+    {
+      "id": "infografis-edukasi",
+      "title": "Bikin Infografis Edukasi",
+      "category": "desain-grafis",
+      "summary": "Materi belajar yang padat diringkas jadi visual yang gampang dicerna.",
+      "steps": [
+        { "toolId": "notebooklm", "instruction": "Ringkas materi panjang jadi poin-poin penting di NotebookLM." },
+        { "toolId": "nano-banana-pro", "instruction": "Visualisasikan poin-poin tadi jadi infografis dengan teks yang presisi dan terbaca di Nano Banana Pro." }
+      ]
+    },
+    {
+      "id": "produksi-video-pembelajaran",
+      "title": "Produksi Video Pembelajaran Lengkap",
+      "category": "generate-video",
+      "summary": "Dari materi mentah jadi video pembelajaran yang enak ditonton tanpa perlu tampil di kamera.",
+      "steps": [
+        { "toolId": "notebooklm", "instruction": "Susun materi dan rangkuman poin penting yang akan disampaikan di NotebookLM." },
+        { "toolId": "synthesia", "instruction": "Buat video dengan avatar AI yang membacakan naskah materi di Synthesia." },
+        { "toolId": "elevenlabs", "instruction": "Tambahkan versi narasi bahasa lain kalau video perlu diadaptasi lewat ElevenLabs." }
+      ]
+    },
+    {
+      "id": "podcast-edukasi-kampus",
+      "title": "Bikin Podcast Edukasi Kampus",
+      "category": "generate-suara",
+      "summary": "Diskusi rutin organisasi/kelas jadi konten podcast yang rapi dan enak didengar.",
+      "steps": [
+        { "toolId": "otter-ai", "instruction": "Rekam dan transkrip sesi diskusi secara otomatis di Otter.ai." },
+        { "toolId": "descript", "instruction": "Edit hasil rekaman jadi episode yang rapi lewat editing transkrip di Descript." },
+        { "toolId": "suno", "instruction": "Bikin jingle intro/outro orisinal untuk podcast di Suno." }
+      ]
+    },
+    {
+      "id": "video-dokumentasi-acara",
+      "title": "Video Dokumentasi Acara/Study Tour",
+      "category": "generate-video",
+      "summary": "Kumpulan foto dan klip dari banyak orang, disatukan jadi satu video kenangan.",
+      "steps": [
+        { "toolId": "veo", "instruction": "Kalau ada momen yang tidak sempat terekam, generate klip tambahan pendukung di Veo." },
+        { "toolId": "flow", "instruction": "Gabungkan semua klip dari anggota kelompok jadi satu video utuh yang runtut di Flow." },
+        { "toolId": "elevenlabs", "instruction": "Tambahkan narasi cerita di sepanjang video lewat ElevenLabs." }
+      ]
+    },
+    {
+      "id": "video-training-onboarding",
+      "title": "Video Training Onboarding Organisasi",
+      "category": "generate-video",
+      "summary": "Materi onboarding yang gampang diperbarui kapan saja tanpa syuting ulang.",
+      "steps": [
+        { "toolId": "synthesia", "instruction": "Buat video dengan avatar AI yang membacakan SOP/materi onboarding di Synthesia." },
+        { "toolId": "descript", "instruction": "Rapikan hasil akhir video sebelum dibagikan ke anggota baru di Descript." }
+      ]
+    },
+    {
+      "id": "video-sinematik-acara-besar",
+      "title": "Video dengan Kesan Sinematik untuk Acara Besar",
+      "category": "generate-video",
+      "summary": "Untuk acara penting (wisuda, perpisahan) yang butuh video promosi dengan kesan lebih premium.",
+      "steps": [
+        { "toolId": "sora", "instruction": "Generate cuplikan video dengan gaya visual sinematik di Sora." },
+        { "toolId": "runway", "instruction": "Perhalus dan kontrol detail visual (motion, background) lebih lanjut di Runway." },
+        { "toolId": "flow", "instruction": "Gabungkan semua cuplikan jadi satu video teaser utuh di Flow." }
+      ]
+    },
+    {
+      "id": "transkrip-ringkasan-rapat",
+      "title": "Transkrip & Ringkasan Rapat Otomatis",
+      "category": "transkripsi",
+      "summary": "Tidak perlu lagi ada satu orang yang harus mencatat manual sepanjang rapat.",
+      "steps": [
+        { "toolId": "otter-ai", "instruction": "Rekam dan transkrip rapat secara real-time di Otter.ai." },
+        { "toolId": "notion-ai", "instruction": "Ringkas hasil transkrip jadi daftar tindak lanjut yang ringkas di Notion AI." }
+      ]
+    },
+    {
+      "id": "kelola-data-anggota-organisasi",
+      "title": "Kelola Data Anggota Organisasi",
+      "category": "data-analisis-bi",
+      "summary": "Data ratusan anggota dan jadwal kegiatan tetap rapi dari satu sumber yang sama.",
+      "steps": [
+        { "toolId": "airtable", "instruction": "Catat data anggota dan jadwal kegiatan dengan berbagai tampilan (grid, kanban) di Airtable." },
+        { "toolId": "zapier", "instruction": "Hubungkan form pendaftaran online supaya data anggota baru otomatis masuk ke Airtable lewat Zapier." }
+      ]
+    },
+    {
+      "id": "otomatisasi-cs-dasar",
+      "title": "Otomatisasi Customer Service Dasar",
+      "category": "customer-support",
+      "summary": "Dari uji coba alur sederhana sampai sistem yang benar-benar menjawab otomatis.",
+      "steps": [
+        { "toolId": "opal", "instruction": "Uji coba alur klasifikasi jenis pertanyaan pelanggan dulu di Opal." },
+        { "toolId": "n8n", "instruction": "Kalau alurnya sudah matang, jalankan permanen 24/7 lewat n8n." },
+        { "toolId": "intercom-fin", "instruction": "Untuk skala lebih besar, pertimbangkan Intercom Fin supaya AI otomatis menjawab tiket berdasar FAQ yang sudah ada." }
+      ]
+    },
+    {
+      "id": "riset-analisis-data-penjualan",
+      "title": "Riset & Analisis Data Penjualan",
+      "category": "data-analisis-bi",
+      "summary": "Data penjualan mentah diubah jadi insight yang bisa langsung ditindaklanjuti.",
+      "steps": [
+        { "toolId": "chatgpt-plus", "instruction": "Upload data penjualan dan minta analisis pola/tren di ChatGPT Plus." },
+        { "toolId": "airtable", "instruction": "Simpan dan visualisasikan hasil analisis dalam tampilan yang lebih rapi di Airtable." }
+      ]
+    },
+    {
+      "id": "crm-sederhana-bisnis-kecil",
+      "title": "Bikin CRM Sederhana untuk Bisnis Kecil",
+      "category": "sales-crm",
+      "summary": "Data pelanggan yang tadinya berantakan di spreadsheet, jadi CRM yang rapi dan gratis.",
+      "steps": [
+        { "toolId": "hubspot", "instruction": "Pindahkan data pelanggan dari spreadsheet ke CRM gratis HubSpot." },
+        { "toolId": "zapier", "instruction": "Hubungkan form pemesanan supaya order baru otomatis tercatat di HubSpot lewat Zapier." }
+      ]
+    },
+    {
+      "id": "kelola-rapat-dokumentasi-tim",
+      "title": "Kelola Rapat & Dokumentasi Tim",
+      "category": "produktivitas-dokumen",
+      "summary": "Setiap rapat otomatis terdokumentasi tanpa ada satu orang yang harus repot mencatat.",
+      "steps": [
+        { "toolId": "otter-ai", "instruction": "Rekam dan transkrip rapat rutin tim di Otter.ai." },
+        { "toolId": "notion-ai", "instruction": "Rangkum dan simpan hasil rapat sebagai dokumentasi tim di Notion AI." }
+      ]
+    },
+    {
+      "id": "website-pendaftaran-acara",
+      "title": "Bangun Website Pendaftaran Acara",
+      "category": "no-code-otomatisasi",
+      "summary": "Halaman pendaftaran acara yang terlihat profesional, jadi dalam waktu singkat.",
+      "steps": [
+        { "toolId": "framer", "instruction": "Desain dan langsung publish landing page pendaftaran acara di Framer." },
+        { "toolId": "zapier", "instruction": "Hubungkan form pendaftaran ke Google Sheets dan notifikasi otomatis lewat Zapier." }
+      ]
+    },
+    {
+      "id": "copy-marketing-lintas-brand",
+      "title": "Menulis Copy Marketing Konsisten Lintas Brand",
+      "category": "penulisan",
+      "summary": "Mengelola beberapa brand sekaligus tanpa gaya bahasa jadi tercampur aduk.",
+      "steps": [
+        { "toolId": "jasper", "instruction": "Buat profil brand voice terpisah untuk tiap brand di Jasper, lalu generate copy sesuai masing-masing." },
+        { "toolId": "grammarly", "instruction": "Cek kualitas bahasa akhir sebelum dipublikasikan di Grammarly." }
+      ]
+    },
+    {
+      "id": "asisten-belajar-pribadi",
+      "title": "Bikin Asisten Belajar Pribadi per Mata Pelajaran",
+      "category": "asisten-chat",
+      "summary": "Asisten custom yang sudah 'hafal' gaya belajar dan materi favoritmu, bisa dipanggil ulang kapan saja.",
+      "steps": [
+        { "toolId": "gems", "instruction": "Buat Gem khusus untuk mata pelajaran tertentu, isi dengan gaya penjelasan yang paling mudah dipahami." },
+        { "toolId": "notebooklm", "instruction": "Untuk pendalaman berbasis sumber asli (buku/modul), lanjutkan di NotebookLM." }
+      ]
+    }
+  ]
+}
